@@ -1,7 +1,7 @@
 import React from "react";
 
 
-const main = () =>{
+const result = () =>{
     return(
         <>
            <h1>
@@ -10,4 +10,4 @@ const main = () =>{
         </>
     )
 }
-export default main
+export default result
