@@ -14,13 +14,15 @@ const Login =() =>{
                 "Accept": '	Application/JSON'
             },
             body: JSON.stringify(item)
-        
+            
         });
-        
+        window.open('http://localhost:3001/result');
         result = await result.json();
         localStorage.setItem("user-info",JSON.stringify(result))
         // history.pushState("/add")
+       
     }
+    
     return(
         <>
         <div className="col-sm-6 offset-sm-3">
