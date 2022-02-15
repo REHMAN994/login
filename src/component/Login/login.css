@@ -1,0 +1,22 @@
+.login{
+    background-color: #2d3f61;
+    height: 100vh;
+}
+#login img{
+    width: 165px;
+}
+#login .text{
+    color: antiquewhite;
+}
+#login .form-group{
+    color: antiquewhite;
+}
+#login .container #login-row #login-column #login-box #login-form {
+    padding: 20px;
+}
+  
+#login .btn-infoo{
+    background-color: #fff;
+    color: #2d3f61;
+    border-color: none;
+}
