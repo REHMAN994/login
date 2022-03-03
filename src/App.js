@@ -31,7 +31,7 @@ function App() {
     <Router>
       <Switch>
         {/* <Route path="/Home" component={Main_Home} exact/> */}
-        <Route path='/' component={Login} exact />
+        <Route path='/login' component={Login} exact />
         {/* <Route path='/createchanal' component={CreatChanel} exact />
         <Route path='/createdocument' component={CreateDocument} exact />
         <Route path='/createvalue' component={CreateValue} exact /> */}

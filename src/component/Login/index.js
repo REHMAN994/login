@@ -2,6 +2,10 @@ import React from "react";
 import '../Login/login.css';
 
 const Login = () => {
+
+    const threatrule_detailurl=()=>{
+        window.open('http://localhost:3000/threatruleupdatedetails')
+    }
     return (
         <div>
             <div id="login" style={{backgroundColor: '#2d3f61',height: '100vh'}}>
@@ -25,6 +29,8 @@ const Login = () => {
                                     <div className="form-group">
                                         <label for="remember-me" className="text"><span>Remember me<input id="remember-me" name="remember-me" type="checkbox" /></span></label><br />
                                         <input type="Submit" name="Submit" className="btn btn-md" value="submit" style={{backgroundColor: 'antiquewhite'}} />
+                                       
+                                        <input onClick={threatrule_detailurl} type="Submit" name="Screen" className="btn btn-md ml-2" value="Screen" style={{backgroundColor: 'antiquewhite'}} />
                                     </div>
                                     <div id="register-link" className="text-right">
                                         <a href="#" className="text" style={{color: 'antiquewhite'}}>Register here</a>
