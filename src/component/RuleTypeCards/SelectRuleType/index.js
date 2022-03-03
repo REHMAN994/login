@@ -10,14 +10,21 @@ const SelectRuleType = () => {
                             <h1>Select RULE TYPE Ref </h1>
                             <div>
                                 <form className="ml-auto" method="post">
-                                    <label> RULE SET </label>
-                                    <select style={{width:'162px'}}>
-                                        <option value="">Rules </option>
+                                    <label> RULE TYPE </label>
+                                    <select style={{width:'162px' , height: '33px'}}>
+                                        <option value="">Rule Type </option>
                                         <option value="">Rule 1</option>
                                         <option value="">Rule 2</option>
                                     </select>
+
+                                    <label className="ml-2"> CASE TYPE </label>
+                                    <select style={{width:'162px' , height: '33px'}}>
+                                        <option value="">Case Type </option>
+                                        <option value="">Case 1</option>
+                                        <option value="">Case 2</option>
+                                    </select>
                                     <label className="ml-2">DESCRIPTION</label>
-                                    <input type="text" placeholder="Description" style={{width: '217px'}}/>
+                                    <input type="text" placeholder="Description" style={{width: '217px' , height: '33px'}}/>
 
                                         <label className="ml-2">ON/OFF
                                             <div className="custom-control custom-switch">

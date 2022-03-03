@@ -11,20 +11,20 @@ const SelectCondition = () => {
                             <div>
                                 <form className="ml-auto" method="post">
                                     <label> CONDITION </label>
-                                    <select style={{ width: '162px' }}>
+                                    <select style={{ width: '162px' , height: '33px' }}>
                                         <option value="">Condition </option>
                                         <option value="">Condition 1</option>
                                         <option value="">Condition 2</option>
                                     </select>
 
                                     <label className="ml-2"> TYPE </label>
-                                    <select style={{ width: '162px' }}>
+                                    <select style={{ width: '162px' , height: '33px' }}>
                                         <option value="">Type </option>
                                         <option value="">Type 1</option>
                                         <option value="">Type 2</option>
                                     </select>
                                     <label className="ml-2">DESCRIPTION</label>
-                                    <input type="text" placeholder="Description" style={{ width: '217px' }} />
+                                    <input type="text" placeholder="Description" style={{ width: '217px', height: '33px' }} />
 
                                     <label className="ml-2">ON/OFF
                                         <div className="custom-control custom-switch">

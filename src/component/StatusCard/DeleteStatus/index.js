@@ -1,21 +1,19 @@
 import React from "react";
 
-const DeleteRuleType = () => {
+const DeleteStatus = () => {
     return(
         <div>
-            <div className="row" >
-                <div className="col-md-10 col-lg-10">
+            <div class="row" >
+                <div class="col-md-10 col-lg-10">
                     <section id="card">
-                        <div className="well">
-                            <h1> SELECT & DELETE RULE TYPE REF  </h1>
-
-                            <table className="table">
-
-                                <thead className="thead-dark">
+                        <div class="well">
+                            <h1> SELECT & DELETE STATUS Ref Table </h1>
+                            <table class="table">
+                                <thead class="thead-dark">
                                     <tr>
                                         <th scope="col">#</th>
-                                        <th scope="col">RULE_TYPE</th>
-                                        <th scope="col">CASE_TYPE</th>
+                                        <th scope="col">STATUS_CODE </th>
+                                        <th scope="col">PROCESS</th>
                                         <th scope="col">DESCRIPTION</th>
                                         <th scope="col">SELECT</th>
                                     </tr>
@@ -23,24 +21,23 @@ const DeleteRuleType = () => {
                                 <tbody>
                                     <tr>
                                         <th scope="row">1</th>
-                                        <td>Admin</td>
-                                        <td>X</td>
-                                        <td>Rule Type Reference Details </td>
-
+                                        <td>XYZ</td>
+                                        <td>pending</td>
+                                        <td>Case_Type Reference Detail </td>
                                         <td><input type="checkbox" /></td>
                                     </tr>
                                     <tr>
                                         <th scope="row">2</th>
-                                        <td>HR</td>
-                                        <td>X</td>
-                                        <td>Rule Type Reference Details</td>
+                                        <td>ABC</td>
+                                        <td>Complete</td>
+                                        <td>Case Type Reference Detail</td>
                                         <td ><input type="checkbox" /></td>
                                     </tr>
 
                                 </tbody>
                             </table>
                         </div>
-                        <input type="Submit" name="Submit" className="btn btn-md" value="Delete" style={{ backgroundColor: '#2d3f61', color: '#fff', float: 'right' }} />
+                        <input type="Submit" name="Submit" class="btn btn-md" value="Delete" style={{ backgroundColor: '#2d3f61', color: '#fff', float: 'right' }} />
                     </section>
                 </div>
             </div>
@@ -48,4 +45,4 @@ const DeleteRuleType = () => {
         </div>        
     )
 }
-export default DeleteRuleType
+export default DeleteStatus

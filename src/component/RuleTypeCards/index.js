@@ -14,6 +14,7 @@ const RuleTypeDetails = () => {
                                     <tr>
                                         <th scope="col">#</th>
                                         <th scope="col">RULE_TYPE</th>
+                                        <th scope="col">CASE_TYPE</th>
                                         <th scope="col">DESCRIPTION</th>
                                         <th scope="col">ON/OFF</th>
                                     </tr>
@@ -22,6 +23,7 @@ const RuleTypeDetails = () => {
                                     <tr>
                                         <th scope="row">1</th>
                                         <td>Admin</td>
+                                        <td>X</td>
                                         <td>Rule Type Reference Details </td>
                                         <td>ON </td>
 
@@ -29,6 +31,7 @@ const RuleTypeDetails = () => {
                                     <tr>
                                         <th scope="row">2</th>
                                         <td>HR</td>
+                                        <td>X</td>
                                         <td>Rule Type Reference Details</td>
                                         <td>OFF</td>
                                     </tr>

@@ -6,14 +6,14 @@ const DeleteThreatDails = () =>{
             <div className="col-md-10 col-lg-10">
                 <section id="card">
                     <div className="well">
-                        <h1> SELECT & DELETE THREAT RULE DETAILS  </h1>
+                        <h1> SELECT & DELETE THREAT GROUP DETAILS  </h1>
 
                         <table className="table">
 
                             <thead className="thead-dark">
                                 <tr>
                                     <th scope="col">#</th>
-                                    <th scope="col">THREAT_RULE</th>
+                                    <th scope="col">THREAT_GROUP</th>
                                     <th scope="col">DESCRIPTION</th>
                                     <th scope="col">SELECT</th>
                                 </tr>

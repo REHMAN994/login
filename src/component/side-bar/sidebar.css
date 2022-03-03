@@ -1,7 +1,7 @@
 #side-bar .navBg {
     background-color: #34495e;
     min-width: 196px;
-    height: 92vh;
+    height:  92.8vh;
 }
 #side-bar h1{
         color: #34495e;
@@ -16,7 +16,7 @@
     padding-top: 15px;
     color: white;
     border-bottom: 1px solid white;
-    font-weight: 300;
+    font-weight: 400;
     width: 100%;
 }
 #side-bar i{

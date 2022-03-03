@@ -6,17 +6,17 @@ const SelectThreatRule = () => {
             <div className="col-md-10 col-lg-10">
                 <section id="card">
                     <div className="well">
-                        <h1> Select THREAT RULE SET Reference </h1>
+                        <h1> Select THREAT GROUP SET Reference </h1>
                         <div>
                             <form className="ml-auto" method="post">
-                                <label> THREAT RULE SET </label>
-                                <select style={{width: '162px'}}>
-                                    <option value="">Threat Rule</option>
+                                <label> THREAT GROUP SET </label>
+                                <select style={{width: '162px', height: '33px'}}>
+                                    <option value="">Threat Group</option>
                                     <option value="">Rule 1</option>
                                     <option value="">Rule 2</option>
                                 </select>
                                 <label className="ml-2">DESCRIPTION</label>
-                                <input type="text" placeholder="Description" style={{width: '217px'}} />
+                                <input type="text" placeholder="Description" style={{width: '217px', height:'33px'}} />
 
                                 {/* <label className="ml-2">ON/OFF
                                     <div className="custom-control custom-switch">

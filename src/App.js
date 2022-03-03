@@ -1,10 +1,11 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Login from "./component/Login";
-import CreatChanel from "./component/pages/creatchanelpage";
+// import CreatChanel from "./component/pages/creatchanelpage";
 import CreateDocument from "./component/pages/creatdocpage";
+// import CreateValue from "./component/pages/creatvaluepage";
+
 import CreateThreatRulePage from "./component/pages/createtheaterulepage";
-import CreateValue from "./component/pages/creatvaluepage";
 import ThreatRuleUpdateDetails from "./component/pages/threadruledetailspage";
 import ThreatRuleDeletepage from "./component/pages/threadruledeletepage";
 import ThreatRuleSelectPage from "./component/pages/threadruleselectpage";
@@ -16,6 +17,14 @@ import RuleTypeDetailsPage from "./component/pages/ruletypedetailspage";
 import RuleTypeCreatePage from "./component/pages/ruletypecreatepage";
 import RuleTypeDeletePage from "./component/pages/ruletypedeletepage";
 import RuleTypeSelectPage from "./component/pages/ruletypeselectpage";
+import CreateCaseTypePage from "./component/pages/createcasetypepage";
+import CaseTypeDeletePage from "./component/pages/casetypedeletepage";
+import CaseTypeSelectPage from "./component/pages/casetypeselectpage";
+import CaseTypeDetailsPage from "./component/pages/casetypedetailpage";
+import StatusCreatePage from "./component/pages/statuscreatepage";
+import StatusSelectPage from "./component/pages/statusselectpage";
+import StatusDeletePage from "./component/pages/statusdeletepage";
+import StatusDetailPage from "./component/pages/statusdetailpage";
 
 function App() {
   return (
@@ -38,6 +47,14 @@ function App() {
         <Route path='/ruletypecreatepage' component={RuleTypeCreatePage} exact />
         <Route path='/ruletypedeletepage' component={RuleTypeDeletePage} exact />
         <Route path='/ruletypeselectpage' component={RuleTypeSelectPage} exact />
+        <Route path='/createcasetypage' component={CreateCaseTypePage} exact />
+        <Route path='/casetypedeletepage' component={CaseTypeDeletePage} exact />
+        <Route path='/casetypeselectpage' component={CaseTypeSelectPage} exact />
+        <Route path='/casetypedetailspage' component={CaseTypeDetailsPage} exact />
+        <Route path='/statuscreatepage' component={StatusCreatePage} exact />
+        <Route path='/statusselectpage' component={StatusSelectPage} exact />
+        <Route path='/statusdeletepage' component={StatusDeletePage} exact />
+        <Route path='/statusdetailpage' component={StatusDetailPage} exact />
       </Switch>
     </Router>
   );

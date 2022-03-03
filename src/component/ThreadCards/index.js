@@ -6,14 +6,14 @@ const ThreatRuleDetails = () => {
             <div className="col-md-10 col-lg-10">
                 <section id="card">
                     <div className="well">
-                        <h1>THREAT RULE SET REFERENCE TABLE </h1>
+                        <h1>THREAT GROUP SET REFERENCE TABLE </h1>
                         <h2>Update Details </h2>
                         <table className="table">
                             
                             <thead className="thead-dark">
                                 <tr>
                                     <th scope="col">#</th>
-                                    <th scope="col">THREAT RULE </th>
+                                    <th scope="col">THREAT Group </th>
                                     <th scope="col">DESCRIPTION</th>
                                 </tr>
                             </thead>
