@@ -54,7 +54,7 @@ function App() {
         <Route path='/statuscreatepage' component={StatusCreatePage} exact />
         <Route path='/statusselectpage' component={StatusSelectPage} exact />
         <Route path='/statusdeletepage' component={StatusDeletePage} exact />
-        <Route path='/statusdetailpage' component={StatusDetailPage} exact />
+        <Route path='/statusdetailspage' component={StatusDetailPage} exact />
       </Switch>
     </Router>
   );

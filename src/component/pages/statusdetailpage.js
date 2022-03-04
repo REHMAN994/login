@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../header";
 import Sidebar from "../side-bar";
-import DetailStatus from "../StatusCard";
+import DetailsStatus from "../StatusCard";
 
 const StatusDetailPage = () => {
     return (
@@ -9,7 +9,7 @@ const StatusDetailPage = () => {
             <Header/>
             <div style={{display: 'flex', flexWrap: 'wrap'}}>
                 <Sidebar/>
-                <DetailStatus/>
+               <DetailsStatus/>
             </div>
             
         </>

@@ -47,7 +47,7 @@ const Sidebar = () =>{
                 </div>
 
                 <div className="dropdown">
-                  <button onClick={()=> window.open('http://localhost:3000/statusdetailpage'), "_self"} className="dropbtn">Status Ref  <i className="fa fa-caret-down ml-2"></i></button>
+                  <button onClick={()=> window.open('http://localhost:3000/statusdetailspage', "_self")} className="dropbtn">Status Ref  <i className="fa fa-caret-down ml-2"></i></button>
                   <div className="dropdown-content">
                     <a href="http://localhost:3000/statuscreatepage">Create Status </a>
                     <a href="http://localhost:3000/statusselectpage">Select Status </a>

@@ -1,6 +1,6 @@
 import React from "react";
 
-const DetailStatus = () => {
+const DetailsStatus = () => {
     return(
         <div>
             <div className="row" >
@@ -45,4 +45,4 @@ const DetailStatus = () => {
         </div>        
     )
 }
-export default DetailStatus
+export default DetailsStatus
