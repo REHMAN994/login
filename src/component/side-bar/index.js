@@ -55,6 +55,34 @@ const Sidebar = () =>{
                   </div>
                 </div>
 
+                <div className="dropdown">
+                  <button onClick={()=> window.open('http://localhost:3000/createdocument', "_self")} className="dropbtn">Create Doc Type <i className="fa fa-caret-down ml-2"></i></button>
+                  <div className="dropdown-content">
+                    <a href="http://localhost:3000/createdocfieldpage">Create Doc Field </a>
+                   
+                  </div>
+                </div>
+
+                <div className="dropdown">
+                  <button className="dropbtn"> Maintain Doc   <i className="fa fa-caret-down ml-2"></i></button>
+                  <div className="dropdown-content">
+                    <a href="http://localhost:3000/docupdatetypepage">Update Doc Type </a>
+                    <a href="http://localhost:3000/docmaintainfieldpage">Maintain Doc Field </a>
+                    <a href="http://localhost:3000/docaddnewfieldpage">Add New Doc Field</a>
+                    <a href="http://localhost:3000/docupdatefieldpage">Update Doc Field</a>
+                    
+                  </div>
+                </div>
+
+                <div className="dropdown">
+                  <button className="dropbtn"> Relationships Doc  <i className="fa fa-caret-down ml-2"></i></button>
+                  <div className="dropdown-content">
+                    <a href="http://localhost:3000/primarydoctypepage">Primary Doc Type </a>
+                    <a href="http://localhost:3000/relationshipcreatedocpage"> Create Doc Relationships </a>
+                    
+                  </div>
+                </div>
+
 
                 <a className="nav-link"><i className="fa fa-plus" aria-hidden="true"></i><span>Creating Channels</span></a>
                 <a className="nav-link"><i className="fa fa-plus" aria-hidden="true"></i><span>Creating List </span></a>

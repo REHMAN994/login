@@ -1,6 +1,6 @@
 #side-bar .navBg {
     background-color: #34495e;
-    min-width: 196px;
+    min-width: 224px;
     height:  92.8vh;
 }
 #side-bar h1{
@@ -35,7 +35,7 @@
     text-align: left;
     border: none;
     cursor: pointer;
-    width: 12rem;
+    width: 14rem;
     border-bottom: 1px solid white;
 }
 

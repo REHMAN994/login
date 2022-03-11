@@ -1,7 +1,7 @@
 #card{
-    width: 118%;        
+    width: 125%;        
     padding: 0;
-    margin: 2rem;
+    margin: 2rem 0rem 0rem 3rem;
     background-color: #fff;
     
 }
@@ -16,5 +16,12 @@
       -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 5%);
       box-shadow: inset 0 1px 1px rgb(0 0 0 / 5%);
 }
+.table thead ,tr ,
+tbody,
+th,
+td {
+  text-align: center;
+}
+
 
   

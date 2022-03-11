@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Login from "./component/Login";
 // import CreatChanel from "./component/pages/creatchanelpage";
 import CreateDocument from "./component/pages/creatdocpage";
+import CreateDocumentFieldpage from "./component/pages/cretedocfieldpage";
 // import CreateValue from "./component/pages/creatvaluepage";
 
 import CreateThreatRulePage from "./component/pages/createtheaterulepage";
@@ -25,6 +26,13 @@ import StatusCreatePage from "./component/pages/statuscreatepage";
 import StatusSelectPage from "./component/pages/statusselectpage";
 import StatusDeletePage from "./component/pages/statusdeletepage";
 import StatusDetailPage from "./component/pages/statusdetailpage";
+import DocAddNewFieldPage from "./component/pages/docaddnewfieldpage";
+import DocMaintainFieldPage from "./component/pages/docmaintainfieldpage";
+import DocUpdateFieldPage from "./component/pages/docupdatefieldpage";
+import DocUpdateTypePage from "./component/pages/docupdatetypepage";
+import PrimaryDocTypePage from "./component/pages/Primarydoctype";
+import RelationshipCreateDocPage from "./component/pages/relationshipcreatedoc";
+
 
 function App() {
   return (
@@ -32,9 +40,8 @@ function App() {
       <Switch>
         {/* <Route path="/Home" component={Main_Home} exact/> */}
         <Route path='/login' component={Login} exact />
-        {/* <Route path='/createchanal' component={CreatChanel} exact />
-        <Route path='/createdocument' component={CreateDocument} exact />
-        <Route path='/createvalue' component={CreateValue} exact /> */}
+        {/* <Route path='/createchanal' component={CreatChanel} exact /> */}
+        {/* <Route path='/createvalue' component={CreateValue} exact /> */}
         <Route path='/threatruleupdatedetails' component={ThreatRuleUpdateDetails} exact />
         <Route path='/threatrulecreatepage' component={CreateThreatRulePage} exact />
         <Route path='/threatruledeletepage' component={ThreatRuleDeletepage} exact />
@@ -55,6 +62,14 @@ function App() {
         <Route path='/statusselectpage' component={StatusSelectPage} exact />
         <Route path='/statusdeletepage' component={StatusDeletePage} exact />
         <Route path='/statusdetailspage' component={StatusDetailPage} exact />
+        <Route path='/createdocument' component={CreateDocument} exact />
+        <Route path='/createdocfieldpage' component={CreateDocumentFieldpage} exact />
+        <Route path='/docaddnewfieldpage' component={DocAddNewFieldPage} exact />
+        <Route path='/docmaintainfieldpage' component={DocMaintainFieldPage} exact />
+        <Route path='/docupdatefieldpage' component={DocUpdateFieldPage} exact />
+        <Route path='/docupdatetypepage' component={DocUpdateTypePage} exact />
+        <Route path='/primarydoctypepage' component={PrimaryDocTypePage} exact />
+        <Route path='/relationshipcreatedocpage' component={RelationshipCreateDocPage} exact />
       </Switch>
     </Router>
   );
