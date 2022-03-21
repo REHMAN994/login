@@ -1,6 +1,6 @@
 import React from "react";
 
-const PrimaryDocType = () => {
+const PrimaryUpdateDocType = () => {
     return(
         <div>
             <div className="row" >
@@ -37,4 +37,4 @@ const PrimaryDocType = () => {
         </div>            
     )
 }
-export default PrimaryDocType
+export default PrimaryUpdateDocType

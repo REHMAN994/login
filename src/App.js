@@ -32,6 +32,16 @@ import DocUpdateFieldPage from "./component/pages/docupdatefieldpage";
 import DocUpdateTypePage from "./component/pages/docupdatetypepage";
 import PrimaryDocTypePage from "./component/pages/Primarydoctype";
 import RelationshipCreateDocPage from "./component/pages/relationshipcreatedoc";
+import PrimaryUptadeDocTypePage from "./component/pages/primaryupdatedoctype";
+import RelationshipUpdateDocPage from "./component/pages/relationshipupdatedoc";
+import AgencyCreatePage from "./component/pages/agencycreatepage";
+import AgencyDeletePage from "./component/pages/agencydeletepage";
+import AgencySelectPage from "./component/pages/agencyselectpage";
+import AgencyDetailsPage from "./component/pages/agencydetailspage";
+import RiskRuleDeleteLivePage from "./component/pages/riskruledeletelive";
+import RiskRuleDeleteUndeployedPage from "./component/pages/riskruledeleteundeployed";
+import DeployRiskRulePage from "./component/pages/deployriskrulepage";
+import AlreadyDeployRiskRulePage from "./component/pages/deployealreadyriskrule";
 
 
 function App() {
@@ -70,6 +80,16 @@ function App() {
         <Route path='/docupdatetypepage' component={DocUpdateTypePage} exact />
         <Route path='/primarydoctypepage' component={PrimaryDocTypePage} exact />
         <Route path='/relationshipcreatedocpage' component={RelationshipCreateDocPage} exact />
+        <Route path='/primaryupdatedoctypepage' component={PrimaryUptadeDocTypePage} exact />
+        <Route path='/relationshipupdatedocpage' component={RelationshipUpdateDocPage} exact />
+        <Route path='/agencycreatepage' component={AgencyCreatePage} exact />
+        <Route path='/agencyselectpage' component={AgencySelectPage} exact />
+        <Route path='/agencydeletepage' component={AgencyDeletePage} exact />
+        <Route path='/agencydelaispage' component={AgencyDetailsPage} exact />
+        <Route path='/riskruledeletelivepage' component={RiskRuleDeleteLivePage} exact />
+        <Route path='/riskruledeleteundeployedpage' component={RiskRuleDeleteUndeployedPage} exact />
+        <Route path='/deployriskrulepage' component={DeployRiskRulePage} exact />
+        <Route path='/alreadydeployeriskrulepage' component={AlreadyDeployRiskRulePage} exact />
       </Switch>
     </Router>
   );
