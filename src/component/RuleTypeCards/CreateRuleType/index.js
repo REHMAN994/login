@@ -11,11 +11,11 @@ const CreateRuleType = () => {
                             <div>
                                 <form class="ml-auto" method="post">
                                     <label> RULE TYPE</label>
-                                    <input type="text" placeholder="Rule Type" style={{ width: '150px' }} />
+                                        <input className="ml-2" type="text" placeholder="Rule Type" style={{ width: '150px' }} />
                                     <label class="ml-2">CASE TYPE</label>
-                                    <input type="text" placeholder="Case Type" style={{ width: '150px' }} />
+                                        <input className="ml-2" type="text" placeholder="Case Type" style={{ width: '150px' }} />
                                     <label class="ml-2">DESCRIPTION</label>
-                                    <input type="text" placeholder="Description" style={{ width: '217px' }} />
+                                        <input className="ml-2" type="text" placeholder="Description" style={{ width: '217px' }} />
                                 </form>
                             </div>
                             

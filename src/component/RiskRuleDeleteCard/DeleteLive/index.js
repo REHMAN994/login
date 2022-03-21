@@ -53,7 +53,7 @@ const RiskRuleDeleteLive = () => {
                             <div style={{display:'flex', flexWrap: 'wrap'}}>
                                 <input type="Submit" name="Submit" className="btn btn-md" value="CANCEL" style={{backgroundColor: '#d90f23', color: '#fff', width:'142px '}}/>
                                 <input type="Submit" name="Submit" className="btn btn-md " value="REVIEW RULE" style={{backgroundColor: '#2d3f61', color: '#fff', float:'right' , width:'142px', marginLeft:'10rem'}} />
-                                <input type="Submit" name="Submit" className="btn btn-md ml-2" value="REVIEW RULE REVISION" style={{ backgroundColor: '#2d3f61',  float: 'right', color: '#fff',width: '204px' }} />
+                                <input type="Submit" name="Submit" className="btn btn-md ml-2" value="REVIEW RULE REVISION" style={{ backgroundColor: '#2d3f61',  float: 'right', color: '#fff', width: '204px' }} />
                             </div>
 
                         </div>
