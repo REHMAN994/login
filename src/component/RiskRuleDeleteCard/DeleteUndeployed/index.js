@@ -7,7 +7,7 @@ const RiskRuleDeleteUndeployed = () => {
                 <div className="col-md-10 col-lg-10">
                     <section id="card">
                         <div className="well">
-                            <h1>DELETE UNDEPLOED RISK RULE </h1>
+                            <h1>DELETE UNDEPLOYED RISK RULE </h1>
                             <div>
                                 <form className="ml-auto" method="post">
                                     <label>Rule ID</label>

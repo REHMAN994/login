@@ -8,7 +8,7 @@ const ThreatRuleUpdateDetails = () => {
     return (
         <>
             <Header/>
-            <div style={{display: 'flex', flexWrap: 'wrap'}}>
+            <div style={{display: 'flex'}}>
                 <Sidebar/>
                 <ThreatRuleDetails/>
                 

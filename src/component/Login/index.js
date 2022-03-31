@@ -33,7 +33,7 @@ const Login = () => {
                                         <input onClick={threatrule_detailurl} type="Submit" name="Screen" className="btn btn-md ml-2" value="Screen" style={{backgroundColor: 'antiquewhite'}} />
                                     </div>
                                     <div id="register-link" className="text-right">
-                                        <a href="#" className="text" style={{color: 'antiquewhite'}}>Register here</a>
+                                        <a  className="text" style={{color: 'antiquewhite'}}>Register here</a>
                                     </div>
                                 </form>
                             </div>

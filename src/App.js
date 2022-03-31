@@ -42,6 +42,15 @@ import RiskRuleDeleteLivePage from "./component/pages/riskruledeletelive";
 import RiskRuleDeleteUndeployedPage from "./component/pages/riskruledeleteundeployed";
 import DeployRiskRulePage from "./component/pages/deployriskrulepage";
 import AlreadyDeployRiskRulePage from "./component/pages/deployealreadyriskrule";
+import RiskRuleCreatePage from "./component/pages/riskrulecarete";
+import RiskRuleCreateCountPage from "./component/pages/riskrulcreatecountpage";
+import RiskRuleCreateKeyPage from "./component/pages/riskrulecreatekey";
+import RiskRuleCreateConditionPage from "./component/pages/riskruleconditionpage";
+import RiskRuleCreateDecisionPage from "./component/pages/riskrulecreatedecisionpage";
+import RiskRuleUpdatePage from "./component/pages/riskruleupdatepage";
+import RiskRuleUpdateCountPage from "./component/pages/riskruleupdatecountpage";
+import RiskRuleMaintainPage from "./component/pages/riskrulemaintainpage";
+import RiskRulepUpdateConditionPage from "./component/pages/riskruleupdatecondition";
 
 
 function App() {
@@ -90,6 +99,15 @@ function App() {
         <Route path='/riskruledeleteundeployedpage' component={RiskRuleDeleteUndeployedPage} exact />
         <Route path='/deployriskrulepage' component={DeployRiskRulePage} exact />
         <Route path='/alreadydeployeriskrulepage' component={AlreadyDeployRiskRulePage} exact />
+        <Route path='/riskrulecraetepage' component={RiskRuleCreatePage} exact />
+        <Route path='/riskrulecreatecountpage' component={RiskRuleCreateCountPage} exact />
+        <Route path='/riskrulecreatekeypage' component={RiskRuleCreateKeyPage} exact />
+        <Route path='/riskrulecreateconditionpage' component={RiskRuleCreateConditionPage} exact />
+        <Route path='/riskrulecreatedecisionpage' component={RiskRuleCreateDecisionPage} exact />
+        <Route path='/riskruleupdatepage' component={RiskRuleUpdatePage} exact />
+        <Route path='/riskruleupdatecountpage' component={RiskRuleUpdateCountPage} exact />
+        <Route path='/riskrulemaintainpage' component={RiskRuleMaintainPage} exact />
+        <Route path='/riskruleupdatecondiotionpage' component={RiskRulepUpdateConditionPage} exact />
       </Switch>
     </Router>
   );

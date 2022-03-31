@@ -1,4 +1,62 @@
-#side-bar .navBg {
+#side-bar {
+  background-color: #5a5e8b;
+  min-width: 240px;
+  height: 92vh;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  left: 0;
+}
+
+.dropbtn {
+    border: none;
+    cursor: pointer;
+    color: #dcdbed;
+   
+    text-align: left;
+    background-color: #5a5e8b;
+    padding: 8px;
+    border-radius:10px;
+    width: 11.8rem;
+    height: 3rem;
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  border: none;
+}
+
+.dropdown-content {
+    display: none;
+    position: relative;
+    background-color: #5a5e8b;
+    min-width: 194px;
+    box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+    z-index: 1;
+}
+
+.dropdown-content a {
+  color: #fff;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color:#5d6193 ;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {    
+  color: #5a5e8b;
+  background-color:#f2f3f7 ;
+ 
+
+}
+
+
+
+/* #side-bar .navBg {
     background-color: #34495e;
     min-width: 224px;
     height:  100vh;
@@ -89,5 +147,5 @@
 
 
 
-.dropdown:hover .dropbtn {background-color: #415970;}
+.dropdown:hover .dropbtn {background-color: #415970;} */
 
