@@ -105,8 +105,8 @@ const Sidebar = () =>{
                   {isActive && (
                     <div id="myDropdown" className="dropdown-content">
                       <a href="http://localhost:3000/ruletypecreatepage">Create Rule</a>
-                      <a href="http://localhost:3000/ruletypedetailspage">Details Rule</a>
-                      <a href="http://localhost:3000/ruletypedeletepage">Delete Details</a>
+                      <a href="http://localhost:3000/ruletypedetailspage">Update Rule</a>
+                      <a href="http://localhost:3000/ruletypedeletepage">Delete Rule</a>
                     </div>
                   )}
                 </div>
@@ -115,8 +115,8 @@ const Sidebar = () =>{
                   {isActive2 && (
                     <div className="dropdown-content">
                       <a href="http://localhost:3000/threatrulecreatepage">Create Threat Rule</a>
-                      <a href="http://localhost:3000/threatruleupdatedetails">Details Threat Rule</a>
-                      <a href="http://localhost:3000/threatruledeletepage">Delete Threat Details</a>
+                      <a href="http://localhost:3000/threatruleupdatedetails">Update Threat Rule</a>
+                      <a href="http://localhost:3000/threatruledeletepage">Delete Threat Rule</a>
                     </div>
                   )}
                 </div>
@@ -126,7 +126,7 @@ const Sidebar = () =>{
                   {isActive3 && (
                     <div class="dropdown-content">
                       <a href="http://localhost:3000/createconditionpage">Create Condition </a>
-                      <a href="http://localhost:3000/conditiondetailspage">Details Condition </a>
+                      <a href="http://localhost:3000/conditiondetailspage">Update Condition </a>
                       <a href="http://localhost:3000/deleteconditionpage">Delete Condition</a>
                     </div>
                   )}
@@ -137,7 +137,7 @@ const Sidebar = () =>{
                   {isActive4 && (
                     <div className="dropdown-content">
                       <a href="http://localhost:3000/createcasetypage">Create Case-Type </a>
-                      <a href="http://localhost:3000/casetypedetailspage">Details Case-Type </a>
+                      <a href="http://localhost:3000/casetypedetailspage">Update Case-Type </a>
                       <a href="http://localhost:3000/casetypedeletepage">Delete Case-Type</a>
                     </div>
                   )}
@@ -148,7 +148,7 @@ const Sidebar = () =>{
                   {isActive5 && (
                     <div className="dropdown-content">
                       <a href="http://localhost:3000/statuscreatepage">Create Status </a>
-                      <a href="http://localhost:3000/statusdetailspage">Details Status </a>
+                      <a href="http://localhost:3000/statusdetailspage">Update Status </a>
                       <a href="http://localhost:3000/statusdeletepage">Delete Status</a>
                     </div>
                   )}

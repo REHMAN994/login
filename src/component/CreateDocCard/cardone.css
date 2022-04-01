@@ -1,5 +1,5 @@
-#card{
-    width: 155%;        
+/* #card{
+    width: 66rem;        
     padding: 0;
     margin: 2rem 0rem 0rem 4rem;
     background-color: #fff;
@@ -15,17 +15,95 @@
       border-radius: 5px;
       -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 5%);
       box-shadow: inset 0 1px 1px rgb(0 0 0 / 5%);
+} */
+#card{
+  padding: 0;
+  margin: 2rem 0rem 0rem 4rem;  
+}
+#card .well{
+    min-height: 20px;
+    width: 67rem;
+    padding: 19px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    border: 1px solid #D5D7E7;
+    border-radius: 5px;
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 5%);
+}
+#card .inner-card{
+  margin-top: 1rem;
 }
 .table thead ,tr ,
 tbody,
 th,
 td {
   text-align: center;
+  color: #5A5E7C;
+
 }
-#card .well h4{
-  text-align: center;
-  
+.table td, .table th {
+  padding: 0.75rem;
+  vertical-align: middle;
+  border-top: 0px solid #dee2e6;
+}
+.ant-switch-checked {
+  background-color: #03995D;
 }
 
+#card h1{
+  font-size: x-large;
+  font-weight: 600;
+  letter-spacing: normal;
+  margin-top: 1rem;
+}
 
-  
+#card label{
+ color: #779696;
+ font-size: large;
+}
+#card input{
+  border-color: #D5D7E7;
+  border-radius: 5px;
+  background-color: #F3F3F6;
+  width: 60rem;
+  height: 2rem;
+}
+#card .button{
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+
+}
+#card .btn-back{
+  color: #03995D;
+  border-color: #03995D;
+  border-radius: 4px;
+  float: right;
+  width: 7rem;
+  margin-right: 14px;
+}
+#card .btn-save{
+  background-color: #03995D;
+  color: #ffffff;
+  border-radius: 4px;
+  float: right;
+  width: 7rem;
+}
+
+::-webkit-input-placeholder { /* Edge */
+  color: #5A5E8B;
+}
+
+:-ms-input-placeholder { /* Internet Explorer */
+  color: #5A5E8B;
+}
+
+::placeholder {
+  color: #5A5E8B;
+  margin-bottom: 10px;
+}
+.table .thead-dark th {
+  color: #fff;
+  background-color: #5a5e8b;
+  border-color:none;
+  font-weight: 400;
+} 

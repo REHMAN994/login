@@ -3,26 +3,32 @@ import React from "react";
 const CreateRuleType = () => {
     return(
         <div>
-            <div class="row" >
-                <div class="col-md-10 col-lg-10">
+            <div className="row">
+                <div className="col-md-10 col-lg-10  pl-0 pr-0">
                     <section id="card">
-                        <div class="well">
-                            <h1>Create RULE TYPE Ref </h1>
-                            <div>
-                                <form class="ml-auto" method="post">
-                                    <label> RULE TYPE</label>
-                                        <input className="ml-2" type="text" placeholder="Rule Type" style={{ width: '150px' }} />
-                                    <label class="ml-2">CASE TYPE</label>
-                                        <input className="ml-2" type="text" placeholder="Case Type" style={{ width: '150px' }} />
-                                    <label class="ml-2">DESCRIPTION</label>
-                                        <input className="ml-2" type="text" placeholder="Description" style={{ width: '217px' }} />
+                        <div className="well">
+                            <h1>Create Rule Type </h1>
+                            <div className="inner-card">
+                                <form className="ml-auto" method="post">
+                                    <label>Rule Type </label>
+                                    <br />
+                                    <input type="text" placeholder="Rule Type" style={{width: '60rem'}} />
+                                    <br />
+                                    <label className="discription" style={{marginTop: '2rem'}}>Description </label>
+                                    <br />
+                                    <input type="text" placeholder="Description here.." style={{height: '5rem'}} />
+
                                 </form>
+
                             </div>
-                            
+                            <div className="button">
+                                <button type="button" className="btn  btn-md btn-save">Save</button>
+                                <button type="button" className="btn btn-md  btn-back">Back</button>
+
+                            </div>
+
                         </div>
-                        <input type="Submit" name="Submit" class="btn btn-md" value="Save" style={{ backgroundColor: '#2d3f61', color: '#fff', float: 'right' }} />
                     </section>
-                    
                 </div>
             </div>
         </div>            

@@ -5,28 +5,43 @@ const CreateCaseType = () => {
         <div>
             <div className="row" >
                 <div className="col-md-10 col-lg-10">
-                    <section id="card">
+                <section id="card">
                         <div className="well">
-                            <h1>Create CASE TYPE Reference Table  </h1>
-                            <div>
+                            <h1>Create Rule Type </h1>
+                            <div className="inner-card">
                                 <form className="ml-auto" method="post">
-                                    <label>CASE_TYPE </label>
-                                    <input className="ml-2"type="text" placeholder="Case_Type " style={{width:'200px' }} />
-
-                                    <label className="ml-3">ACTION </label>
-                                    <input className="ml-2"type="text" placeholder="Action " style={{ width: '150px' }}/>
-
-                                    <label className="ml-3">ACTION DETAILS</label>
-                                    <input className="ml-2"type="text" placeholder="Action Details " style={{ width: '150px' }}/>
+                                    <div style={{display:'flex'}}>
+                                        <div >
+                                            <label>Case Type </label>
+                                            <br />
+                                            <input type="text" placeholder="Case Type" style={{width: '28rem'}} />
+                                     
+                                        </div>
+                                        <div style={{marginLeft:'4rem'}} >
+                                            <label>Action </label>
+                                            <br />
+                                            <input type="text" placeholder="Action" style={{width: '28rem'}} />
+                                        </div>
+                                    </div>
+                                   <br/>
+                                    <label>Action Details </label>
+                                    <br />
+                                    <input type="text" placeholder="Action Details" style={{width: '60rem'}} />
                                     <br/>
-                                    <label>DESCRIPTION </label>
-                                    <input className="ml-2"type="text" placeholder="Description " style={{width: '240px'}} />
+                                    <label className="discription" style={{marginTop: '2rem'}}>Description </label>
+                                    <br />
+                                    <input type="text" placeholder="Description here.." style={{height: '5rem'}} />
 
-                                    
                                 </form>
+
                             </div>
+                            <div className="button">
+                                <button type="button" className="btn  btn-md btn-save">Save</button>
+                                <button type="button" className="btn btn-md  btn-back">Back</button>
+
+                            </div>
+
                         </div>
-                        <input type="Submit" name="Submit" className="btn btn-md" value="Submit" style={{backgroundColor:'#2d3f61', color: '#fff', float: 'right'}} />
                     </section>
                     
                 </div>

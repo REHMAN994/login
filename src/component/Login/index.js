@@ -4,7 +4,7 @@ import '../Login/login.css';
 const Login = () => {
 
     const threatrule_detailurl=()=>{
-        window.open('http://localhost:3000/threatruleupdatedetails')
+        window.open('http://localhost:3000/ruletypecreatepage','self')
     }
     return (
         <div>

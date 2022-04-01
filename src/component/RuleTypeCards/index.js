@@ -1,46 +1,61 @@
-import React from "react";
+import React,{useState} from "react";
+import { Switch } from "antd";
+import 'antd/dist/antd.css';
 
 const RuleTypeDetails = () => {
+
     return(
         <div>
-            <div class="row" >
-                <div class="col-md-10 col-lg-10">
+            <div className="row" >
+                <div className="col-md-10 col-lg-10">
                     <section id="card">
-                        <div class="well">
-                            <h1>RULE TYPE REFERENCE TABLE </h1>
-                            <h2>Select Details </h2>
-                            <table class="table">
-                                 <thead class="thead-dark">
+                        <div className="well" style={{width: '74rem'}}>
+                            <h1 > Update Rule Type </h1>
+                            <table className="table table-striped" style={{marginTop:"1rem"}}>
+                                 <thead className="thead-dark">
                                     <tr>
                                         <th scope="col">#</th>
-                                        <th scope="col">RULE_TYPE</th>
-                                        <th scope="col">CASE_TYPE</th>
-                                        <th scope="col">DESCRIPTION</th>
-                                        <th scope="col">ON/OFF</th>
-                                        <th scope="col">ACTION</th>
+                                        <th scope="col">Rule Type</th>
+                                        <th scope="col">Case_Type</th>
+                                        <th scope="col">Decision</th>
+                                        <th scope="col">Status</th>
+                                        <th scope="col">Action</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <th scope="row">1</th>
+                                        <td scope="row">1</td>
                                         <td>Admin</td>
                                         <td>X</td>
                                         <td>Rule Type Reference Details </td>
-                                        <td>ON </td>
-                                        {/* <td><input type="Submit" name="Submit" class="btn btn-md" value="Edit" style={{ backgroundColor: '#2d3f61', color: '#fff' }} /></td> */}
-                                        <td><button data-toggle="modal" data-target="#myModal" className="btn btn-md" style={{ backgroundColor: '#2d3f61', color: '#fff' }} >Edit </button></td>
+                                        <td>  <Switch/>  </td>
+                                        {/* <td><input type="Submit" name="Submit" className="btn btn-md" value="Edit" style={{ backgroundColor: '#2d3f61', color: '#fff' }} /></td> */}
+                                        <td><i className="fas fa-edit"></i></td>
                                     </tr>
                                     <tr>
-                                        <th scope="row">2</th>
+                                        <td scope="row">2</td>
                                         <td>HR</td>
                                         <td>X</td>
                                         <td>Rule Type Reference Details</td>
-                                        <td>OFF</td>
-                                        <td><button data-toggle="modal" data-target="#myModal" className="btn btn-md" style={{ backgroundColor: '#2d3f61', color: '#fff' }} >Edit </button></td>
+                                        <td><Switch/> </td>
+                                        <td><i className="fas fa-edit"></i></td>
+                                    </tr>
+                                    <tr>
+                                        <td scope="row">3</td>
+                                        <td>HR</td>
+                                        <td>X</td>
+                                        <td>Rule Type Reference Details</td>
+                                        <td><Switch/> </td>
+                                        <td><i className="fas fa-edit"></i></td>
                                     </tr>
 
                                 </tbody>
                             </table>
+                            <div className="button">
+                                <button type="button" className="btn  btn-md btn-save">Update</button>
+                                <button type="button" className="btn btn-md  btn-back">Back</button>
+
+                            </div>
                         </div>
                     </section>
                     
@@ -51,26 +66,31 @@ const RuleTypeDetails = () => {
                     <div className="modal-content">
                         <div className="row" >
                             <div className="col-md-10 col-lg-10">
-                                <section id="card" style={{width: '106%'}}>
+                                <section id="card" style={{ width: '106%' }}>
                                     <div className="well">
-                                        <h1>Select RULE TYPE Ref </h1>
-                                        <div>
+                                        <h1> Rule Type Edit </h1>
+                                        <div className="inner-card">
                                             <form className="ml-auto" method="post">
-                                                <label> RULE TYPE </label>
-                                                <input className="ml-2" type="text" placeholder="Description" style={{ width: '150px', height: '33px' }} />
+                                                <label>Rule Type </label>
+                                                <br />
+                                                <input type="text" placeholder="Rule Type" style={{ width: '30rem' }} /><label>Rule Type </label>
+                                                <label>Case_Type</label>
+                                                <br/>
+                                                <input type="text" placeholder="Rule Type" style={{ width: '30rem' }} />
+                                                <br />
+                                                <label className="discription" style={{ marginTop: '2rem' }}>Description </label>
+                                                <br />
+                                                <input type="text" placeholder="Description here.." style={{ height: '5rem' }} />
 
-                                                <label className="ml-2"> CASE TYPE </label>
-                                                <input className="ml-2" type="text" placeholder="Description" style={{ width: '150px', height: '33px' }} />
-                                                 <br/>   
-                                                <label style={{ marginTop: '11px'}}>DESCRIPTION</label>
-                                                <input className="ml-2" type="text" placeholder="Description" style={{ width: '250px', height: '33px' }} />
-
-                                               
-                                            <input type="Submit" name="Submit" className="btn btn-md" value="Save" style={{ backgroundColor: '#2d3f61', color: '#fff', float: 'right' }} />
                                             </form>
+
+                                        </div>
+                                        <div className="button">
+                                            <button type="button" className="btn  btn-md btn-save">Save</button>
+                                            <button type="button" className="btn btn-md  btn-back">Back</button>
+
                                         </div>
                                     </div>
-                                    
                                 </section>
 
                             </div>

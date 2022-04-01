@@ -1,43 +1,61 @@
 import React from "react";
+import { Switch } from "antd";
+import 'antd/dist/antd.css';
 
 const CaseTypeDetails = () =>{
     return(
         <div>
             <div className="row" >
                 <div className="col-md-10 col-lg-10">
-                    <section id="card">
-                        <div className="well">
-                            <h1>CASE_TYPE Reference Table   </h1>
-                            <h2>Update Details </h2>
-                            <table className="table ">
-                                <thead className="thead-dark">
+                <section id="card">
+                        <div className="well" style={{width: '74rem'}}>
+                            <h1 > Update Case Type </h1>
+                            <table className="table table-striped" style={{marginTop:"1rem"}}>
+                                 <thead className="thead-dark">
                                     <tr>
                                         <th scope="col">#</th>
-                                        <th scope="col">CASE_TYPE</th>
-                                        <th scope="col">ACTION</th>
-                                        <th scope="col">ACTION_DETAILS</th>
-                                        <th scope="col">DESCRIPTION</th>
-
+                                        <th scope="col">CaseType</th>
+                                        <th scope="col">Action</th>
+                                        <th scope="col">Action Details</th> 
+                                        <th scope="col">Decision</th>
+                                        <th scope="col">Edit</th>
+                                        
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <th scope="row">1</th>
-                                        <td>XYZ</td>
-                                        <td>Pending</td>
-                                        <td>XXX</td>
-                                        <td>Case-Type Reference Details </td>
+                                        <td scope="row">1</td>
+                                        <td>Admin</td>
+                                        <td>  <Switch/>  </td>
+                                        <td>Case Type Reference </td>
+                                        <td>Details</td>
+                                        {/* <td><input type="Submit" name="Submit" className="btn btn-md" value="Edit" style={{ backgroundColor: '#2d3f61', color: '#fff' }} /></td> */}
+                                        <td><i className="fas fa-edit"></i></td>
                                     </tr>
                                     <tr>
-                                        <th scope="row">2</th>
-                                        <td>ABC</td>
-                                        <td>Complete</td>
-                                        <td>XXX</td>
-                                        <td>Case-Type Reference Details</td>
+                                        <td scope="row">2</td>
+                                        <td>HR</td>
+                                        <td><Switch/> </td>
+                                        <td>Case Type Reference</td>
+                                        <td>Details</td>
+                                        <td><i className="fas fa-edit"></i></td>
+                                    </tr>
+                                    <tr>
+                                    <td scope="row">2</td>
+                                        <td>Sales</td>
+                                        <td><Switch/> </td>
+                                        <td>Case Type Reference</td>
+                                        <td>Details</td>
+                                        <td><i className="fas fa-edit"></i></td>
                                     </tr>
 
                                 </tbody>
                             </table>
+                            <div className="button">
+                                <button type="button" className="btn  btn-md btn-save">Update</button>
+                                <button type="button" className="btn btn-md  btn-back">Back</button>
+
+                            </div>
                         </div>
                     </section>
                 </div>

@@ -6,20 +6,27 @@ const CreateThreatRule = () => {
             <div className="col-md-10 col-lg-10">
                 <section id="card">
                     <div className="well">
-                        <h1>Create THREAT GROUP Reference  </h1>
-                        <div>
-                            <form className="ml-auto" method="post">
-                                <label> THREAT GROUP</label>
-                                <input type="text" placeholder="Threat Group" style={{ width: '150px' }} />
-                                <label className="ml-2">DESCRIPTION</label>
-                                <input type="text" placeholder="Description" style={{ width: '217px' }} />
-                                <label className="ml-2">ON/OFF
-                                    <input type="text" placeholder="Description" style={{ width: '100px' }} />
-                                </label>
-                            </form>
-                        </div>
+                        <h1>Create Threat Group  </h1>
+                        <div className="inner-card">
+                                <form className="ml-auto" method="post">
+                                    <label>Threat Group </label>
+                                    <br />
+                                    <input type="text" placeholder="Threat Group" style={{width: '60rem'}} />
+                                    <br />
+                                    <label className="discription" style={{marginTop: '2rem'}}>Description </label>
+                                    <br />
+                                    <input type="text" placeholder="Description here.." style={{height: '5rem'}} />
+
+                                </form>
+
+                            </div>
+                            <div className="button">
+                                <button type="button" className="btn  btn-md btn-save">Save</button>
+                                <button type="button" className="btn btn-md  btn-back">Back</button>
+
+                            </div>
                     </div>
-                    <input type="Submit" name="Submit" className="btn btn-md" value="Submit" style={{ backgroundColor: '#2d3f61', color: '#fff', float: 'right' }} />
+                    
                 </section >
             </div>
         </div>
