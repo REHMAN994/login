@@ -15,7 +15,7 @@ const CreateThreatRule = () => {
                                     <br />
                                     <label className="discription" style={{marginTop: '2rem'}}>Description </label>
                                     <br />
-                                    <input type="text" placeholder="Description here.." style={{height: '5rem'}} />
+                                    <textarea id="w3review" name="w3review" rows="4" type="text" placeholder=" Description here.." style={{height: '5rem'}}></textarea>
 
                                 </form>
 

@@ -5,23 +5,42 @@ const CreateStatus = () => {
         <div>
             <div class="row" >
                 <div class="col-md-10 col-lg-10">
-                    <section id="card">
-                        <div class="well">
-                            <h1>Create STATUS Reference Table  </h1>
-                            <div>
-                                <form class="ml-auto" method="post">
-                                    <label>STATUS_CUDE </label>
-                                        <input type="text" placeholder="Status_Cude " style={{width: '180px'}} />
-                                    <label class="ml-2">PROCESS </label>
-                                        <input type="text" placeholder="Process " style={{width: '180px'}}/>
-                                    <label class="ml-2">SEQ_NO  </label>
-                                        <input type="text" placeholder="Seq_No " style={{width: '100px'}} />
-                                    <label>DESCRIPTION </label>
-                                        <input type="text" placeholder="Description " style={{width: '240px'}}/>
+                <section id="card">
+                        <div className="well">
+                            <h1>Create Status </h1>
+                            <div className="inner-card">
+                                <form className="ml-auto" method="post">
+                                    <div style={{display:'flex'}}>
+                                        <div >
+                                            <label>Status Code </label>
+                                            <br />
+                                            <input type="text" placeholder="Status Code" style={{width: '28rem'}} />
+                                     
+                                        </div>
+                                        <div style={{marginLeft:'4rem'}} >
+                                            <label>Seq.No </label>
+                                            <br />
+                                            <input type="text" placeholder="Action" style={{width: '28rem'}} />
+                                        </div>
+                                    </div>
+                                        <label>Process </label>
+                                            <br />
+                                        <input type="text" placeholder="Process"  />
+                                    <br/>
+                                    <label className="discription" style={{marginTop: '2rem'}}>Description </label>
+                                    <br />
+                                    <textarea id="w3review" name="w3review" rows="4" type="text" placeholder=" Description here.." style={{height: '5rem'}}></textarea>
+
                                 </form>
+
                             </div>
+                            <div className="button">
+                                <button type="button" className="btn  btn-md btn-save">Save</button>
+                                <button type="button" className="btn btn-md  btn-back">Back</button>
+
+                            </div>
+
                         </div>
-                        <input type="Submit" name="Submit" class="btn btn-md" value="Submit" style={{backgroundColor:'#2d3f61', color: '#fff', float: 'right' }}/>
                     </section>
                 </div>
             </div>

@@ -68,6 +68,13 @@ td {
   width: 60rem;
   height: 2rem;
 }
+#card textarea{
+  border-color: #D5D7E7;
+  border-radius: 5px;
+  background-color: #F3F3F6;
+  width: 60rem;
+  height: 2rem;
+}
 #card .button{
   margin-top: 2rem;
   margin-bottom: 4rem;

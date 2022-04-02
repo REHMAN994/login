@@ -7,7 +7,7 @@ const CreateCaseType = () => {
                 <div className="col-md-10 col-lg-10">
                 <section id="card">
                         <div className="well">
-                            <h1>Create Rule Type </h1>
+                            <h1>Create Case Type </h1>
                             <div className="inner-card">
                                 <form className="ml-auto" method="post">
                                     <div style={{display:'flex'}}>
@@ -30,7 +30,7 @@ const CreateCaseType = () => {
                                     <br/>
                                     <label className="discription" style={{marginTop: '2rem'}}>Description </label>
                                     <br />
-                                    <input type="text" placeholder="Description here.." style={{height: '5rem'}} />
+                                    <textarea id="w3review" name="w3review" rows="4" type="text" placeholder=" Description here.." style={{height: '5rem'}}></textarea>
 
                                 </form>
 

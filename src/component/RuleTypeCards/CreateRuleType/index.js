@@ -1,4 +1,6 @@
 import React from "react";
+import { Switch } from "antd";
+import 'antd/dist/antd.css';
 
 const CreateRuleType = () => {
     return(
@@ -16,7 +18,7 @@ const CreateRuleType = () => {
                                     <br />
                                     <label className="discription" style={{marginTop: '2rem'}}>Description </label>
                                     <br />
-                                    <input type="text" placeholder="Description here.." style={{height: '5rem'}} />
+                                    <textarea id="w3review" name="w3review" rows="4" type="text" placeholder=" Description here.." style={{height: '5rem'}}></textarea>
 
                                 </form>
 
@@ -29,6 +31,8 @@ const CreateRuleType = () => {
 
                         </div>
                     </section>
+                    
+
                 </div>
             </div>
         </div>            
