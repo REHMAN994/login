@@ -18,7 +18,7 @@ const ConditionDetails = () =>{
                                     <th scope="col">Condition</th>
                                     <th scope="col">Symbol</th>
                                     <th scope="col">Description</th>
-                                    
+                                    <th scope="col">Status</th>
                                     <th scope="col">Action</th>
                                 </tr>
                             </thead>
@@ -27,8 +27,8 @@ const ConditionDetails = () =>{
                                     <td scope="row">1</td>
                                     <td>Admin</td>
                                     <td>X</td>
-                                    <td>Rule Type Reference Details </td>
-                                   
+                                    <td> Reference Details </td>
+                                    <td><Switch/> </td>
                                     {/* <td><input type="Submit" name="Submit" className="btn btn-md" value="Edit" style={{ backgroundColor: '#2d3f61', color: '#fff' }} /></td> */}
                                     <td><button  data-toggle="modal" data-target="#myModal" style={{border:'none'}}><i className="fas fa-edit"></i></button> <i class="fa fa-trash ml-2" aria-hidden="true"></i></td>
                                 </tr>
@@ -36,16 +36,16 @@ const ConditionDetails = () =>{
                                     <td scope="row">2</td>
                                     <td>HR</td>
                                     <td>X</td>
-                                    <td>Rule Type Reference Details</td>
-                                    
+                                    <td>Reference Details</td>
+                                    <td><Switch/> </td>
                                     <td><button  data-toggle="modal" data-target="#myModal" style={{border:'none'}}><i className="fas fa-edit"></i></button> <i class="fa fa-trash ml-2" aria-hidden="true"></i></td>
                                 </tr>
                                 <tr>
                                     <td scope="row">3</td>
                                     <td>HR</td>
                                     <td>X</td>
-                                    <td>Rule Type Reference Details</td>
-                                    {/* <td><Switch/> </td> */}
+                                    <td> Reference Details</td>
+                                    <td><Switch/> </td>
                                     <td><button  data-toggle="modal" data-target="#myModal" style={{border:'none'}}><i className="fas fa-edit"></i></button> <i class="fa fa-trash ml-2" aria-hidden="true"></i></td>
                                     
                                 </tr>
@@ -84,14 +84,6 @@ const ConditionDetails = () =>{
                                                     <br/>
                                                     <input type="text" placeholder="Symbol" style={{ width: '15rem' }} />
                                                 </div>
-                                            </div>
-                                            <div style={{display:'flex'}}>
-                                            
-                                                <div style={{ marginTop: '2rem' }}>
-                                                    <label>Status</label>
-                                                    <br/>
-                                                    <Switch/>
-                                                </div>    
                                             </div>
                                             
                                             <br />

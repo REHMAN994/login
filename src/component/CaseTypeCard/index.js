@@ -18,6 +18,7 @@ const CaseTypeDetails = () =>{
                                         <th scope="col">Action</th>
                                         <th scope="col">Action Details</th>
                                         <th scope="col">Discription</th>
+                                        <th scope="col">Status</th>
                                         <th scope="col">Edit</th>
 
                                     </tr>
@@ -26,26 +27,29 @@ const CaseTypeDetails = () =>{
                                     <tr>
                                         <td scope="row">1</td>
                                         <td>Admin</td>
-                                        <td>  <Switch />  </td>
+                                        <td>xxx</td>
                                         <td>Case Type Reference </td>
                                         <td>Details</td>
+                                        <td><Switch /> </td>
                                         {/* <td><input type="Submit" name="Submit" className="btn btn-md" value="Edit" style={{ backgroundColor: '#2d3f61', color: '#fff' }} /></td> */}
                                         <td><button data-toggle="modal" data-target="#myModal" style={{ border: 'none' }}><i className="fas fa-edit"></i></button> <i class="fa fa-trash ml-2" aria-hidden="true"></i></td>
                                     </tr>
                                     <tr>
                                         <td scope="row">2</td>
                                         <td>HR</td>
-                                        <td><Switch /> </td>
+                                        <td>xxx </td>
                                         <td>Case Type Reference</td>
                                         <td>Details</td>
+                                        <td>  <Switch />  </td>
                                         <td><button data-toggle="modal" data-target="#myModal" style={{ border: 'none' }}><i className="fas fa-edit"></i></button> <i class="fa fa-trash ml-2" aria-hidden="true"></i></td>
                                     </tr>
                                     <tr>
                                         <td scope="row">2</td>
                                         <td>Sales</td>
-                                        <td><Switch /> </td>
+                                        <td>xxx </td>
                                         <td>Case Type Reference</td>
                                         <td>Details</td>
+                                        <td>  <Switch />  </td>
                                         <td><button data-toggle="modal" data-target="#myModal" style={{ border: 'none' }}><i className="fas fa-edit"></i></button> <i class="fa fa-trash ml-2" aria-hidden="true"></i></td>
                                     </tr>
 
@@ -70,33 +74,32 @@ const CaseTypeDetails = () =>{
                                         <h1> Case Type Edit </h1>
                                         <div className="inner-card">
                                             <form className="ml-auto" method="post">
-                                            <div style={{display:'flex'}}>
+                                            
                                                 <div >
                                                     <label>Case Type </label>
                                                     <br />
-                                                    <input type="text" placeholder="Case Type" style={{width: '15rem'}} />
+                                                    <input type="text" placeholder="Case Type" style={{width: '34rem'}} />
                                      
                                                 </div>
-                                                
-                                            </div>
+                                            
                                             <div style={{display:'flex', marginTop:'1rem'}}>
                                                 
                                                 <div >
+                                                    <label>Action</label>
+                                                    <br/>
+                                                    <input type="text" placeholder="Action" style={{ width: '15rem' }} />
+                                                </div>
+                                                <div style={{marginLeft:'4rem'}}>
                                                     <label>Action Details</label>
                                                     <br/>
                                                     <input type="text" placeholder="Action Details" style={{ width: '15rem' }} />
-                                                </div>
-                                                <div style={{marginLeft:'4rem'}}>
-                                                    <label>Action</label>
-                                                    <br/>
-                                                    <Switch />
                                                 </div>
                                                 
                                             </div>
                                                 
                                                 <label className="discription" style={{ marginTop: '1rem' }}>Description </label>
                                                 <br />
-                                                <textarea id="w3review" name="w3review" rows="4" type="text" placeholder=" Description here.." style={{height: '5rem', width:'30rem'}}></textarea>
+                                                <textarea id="w3review" name="w3review" rows="4" type="text" placeholder=" Description here.." style={{height: '5rem', width:'34rem'}}></textarea>
 
                                             </form>
 

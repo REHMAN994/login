@@ -1,4 +1,6 @@
 import React from "react";
+import { Switch } from "antd";
+import 'antd/dist/antd.css';
 
 const DetailsStatus = () => {
     return(
@@ -15,6 +17,7 @@ const DetailsStatus = () => {
                                         <th scope="col">Process</th>
                                         <th scope="col">Seq.No</th>
                                         <th scope="col">Description</th>
+                                        <th scope="col">Status</th>
                                         <th scope="col">Action</th>
                                     </tr>
                                 </thead>
@@ -24,7 +27,7 @@ const DetailsStatus = () => {
                                         <td>xxxx</td>
                                         <td>xx</td>
                                         <td>Status Reference Details </td>
-
+                                        <td>  <Switch /> </td>
                                         {/* <td><input type="Submit" name="Submit" className="btn btn-md" value="Edit" style={{ backgroundColor: '#2d3f61', color: '#fff' }} /></td> */}
                                         <td><button data-toggle="modal" data-target="#myModal" style={{ border: 'none' }}><i className="fas fa-edit"></i></button> <i class="fa fa-trash ml-2" aria-hidden="true"></i></td>
                                     </tr>
@@ -33,7 +36,7 @@ const DetailsStatus = () => {
                                         <td>xxxx</td>
                                         <td>xx</td>
                                         <td>Status Reference Details</td>
-
+                                        <td>  <Switch /> </td>
                                         <td><button data-toggle="modal" data-target="#myModal" style={{ border: 'none' }}><i className="fas fa-edit"></i></button> <i class="fa fa-trash ml-2" aria-hidden="true"></i></td>
                                     </tr>
                                     <tr>
@@ -41,7 +44,7 @@ const DetailsStatus = () => {
                                         <td>xxxx</td>
                                         <td>xx</td>
                                         <td>Status Reference Details</td>
-                                        {/* <td><Switch/> </td> */}
+                                        <td><Switch/> </td>
                                         <td><button data-toggle="modal" data-target="#myModal" style={{ border: 'none' }}><i className="fas fa-edit"></i></button> <i class="fa fa-trash ml-2" aria-hidden="true"></i></td>
 
                                     </tr>

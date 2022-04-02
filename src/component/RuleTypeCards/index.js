@@ -1,4 +1,4 @@
-import React,{useState} from "react";
+import React from "react";
 import { Switch } from "antd";
 import 'antd/dist/antd.css';
 
@@ -24,7 +24,7 @@ const RuleTypeDetails = () => {
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td scope="row">1</td>
+                                        <td>1</td>
                                         <td>Admin</td>
                                         <td>X</td>
                                         <td>Rule Type Reference Details </td>
@@ -33,7 +33,7 @@ const RuleTypeDetails = () => {
                                         <td><button  data-toggle="modal" data-target="#myModal" style={{border:'none'}}><i className="fas fa-edit"></i></button> <i class="fa fa-trash ml-2" aria-hidden="true"></i></td>
                                     </tr>
                                     <tr>
-                                        <td scope="row">2</td>
+                                        <td>2</td>
                                         <td>HR</td>
                                         <td>X</td>
                                         <td>Rule Type Reference Details</td>
@@ -41,7 +41,7 @@ const RuleTypeDetails = () => {
                                         <td><button  data-toggle="modal" data-target="#myModal" style={{border:'none'}}><i className="fas fa-edit"></i></button> <i class="fa fa-trash ml-2" aria-hidden="true"></i></td>
                                     </tr>
                                     <tr>
-                                        <td scope="row">3</td>
+                                        <td>3</td>
                                         <td>HR</td>
                                         <td>X</td>
                                         <td>Rule Type Reference Details</td>
@@ -97,10 +97,7 @@ const RuleTypeDetails = () => {
                                                 </div>
                                                 
                                             </div>
-                                                <label style={{marginTop:'1rem'}}>Status</label>
-                                                <br/>
-                                                <Switch/>
-                                                <br/>
+                                                
                                                 <label className="discription" style={{ marginTop: '1rem' }}>Description </label>
                                                 <br />
                                                 <textarea id="w3review" name="w3review" rows="4" type="text" placeholder=" Description here.." style={{height: '5rem', width:'30rem'}}></textarea>

@@ -22,7 +22,7 @@ const ThreatRuleDetails = () => {
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td scope="row">1</td>
+                                        <td>1</td>
                                         <td>Admin</td>
                                         <td>Threat Group Details </td>
                                         <td>  <Switch /> </td>
@@ -30,14 +30,14 @@ const ThreatRuleDetails = () => {
                                         <td><button  data-toggle="modal" data-target="#myModal" style={{border:'none'}}><i className="fas fa-edit"></i></button> <i class="fa fa-trash ml-2" aria-hidden="true"></i></td>
                                     </tr>
                                     <tr>
-                                        <td scope="row">2</td>
+                                        <td>2</td>
                                         <td>HR</td>
                                         <td>Threat Group Details</td>
                                         <td><Switch/> </td>
                                         <td><button  data-toggle="modal" data-target="#myModal" style={{border:'none'}}><i className="fas fa-edit"></i></button> <i class="fa fa-trash ml-2" aria-hidden="true"></i></td>
                                     </tr>
                                     <tr>
-                                        <td scope="row">3</td>
+                                        <td>3</td>
                                         <td>HR</td>
                                         <td>Threat Group Details</td>
                                         <td><Switch/> </td>
@@ -72,11 +72,7 @@ const ThreatRuleDetails = () => {
                                                         <input type="text" placeholder="Threat Group" style={{ width: '15rem' }} />
 
                                                     </div>
-                                                    <div style={{ marginLeft: '4rem' }} >
-                                                        <label>Status </label>
-                                                        <br />
-                                                        <Switch/>
-                                                    </div>
+                                                    
                                                 </div>
                                                 
                                                 <label className="discription" style={{ marginTop: '1rem' }}>Description </label>
