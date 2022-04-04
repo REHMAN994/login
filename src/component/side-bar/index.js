@@ -136,8 +136,8 @@ const Sidebar = () =>{
                   <button onClick={(e) => setIsActive4(!isActive4)} className="dropbtn"><i class="fa fa-plus mr-2" aria-hidden="true"></i>Case Type Ref  </button>
                   {isActive4 && (
                     <div className="dropdown-content">
-                      <a href="http://localhost:3000/createcasetypage">Create Case-Type </a>
-                      <a href="http://localhost:3000/casetypedetailspage">Details Case-Type </a>
+                      <a href="http://localhost:3000/createcasetypage">Create Case Type </a>
+                      <a href="http://localhost:3000/casetypedetailspage">Details Case Type </a>
                       {/* <a href="http://localhost:3000/casetypedeletepage">Delete Case-Type</a> */}
                     </div>
                   )}
@@ -170,8 +170,8 @@ const Sidebar = () =>{
                     <div className="dropdown-content">
                       <a href="http://localhost:3000/docupdatetypepage">Update Doc Type </a>
                       <a href="http://localhost:3000/docmaintainfieldpage">Maintain Doc Field </a>
-                      <a href="http://localhost:3000/docaddnewfieldpage">Add New Doc Field</a>
-                      <a href="http://localhost:3000/docupdatefieldpage">Update Doc Field</a>
+                      {/* <a href="http://localhost:3000/docaddnewfieldpage">Add New Doc Field</a>
+                      <a href="http://localhost:3000/docupdatefieldpage">Update Doc Field</a> */}
                     </div>
                   )}
                 </div>
@@ -203,7 +203,7 @@ const Sidebar = () =>{
                     <div className="dropdown-content">
                       <a href="http://localhost:3000/agencycreatepage">Create Agency </a>
                       <a href="http://localhost:3000/agencydelaispage"> Details Agency </a>
-                      <a href="http://localhost:3000/agencydeletepage"> Delete Details</a>
+                      {/* <a href="http://localhost:3000/agencydeletepage"> Delete Details</a> */}
                     </div>
                   )}
                 </div>

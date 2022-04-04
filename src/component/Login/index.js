@@ -28,9 +28,9 @@ const Login = () => {
                                     </div>
                                     <div className="form-group">
                                         <label for="remember-me" className="text"><span>Remember me<input id="remember-me" name="remember-me" type="checkbox" /></span></label><br />
-                                        <input type="Submit" name="Submit" className="btn btn-md" value="submit" style={{backgroundColor: 'antiquewhite'}} />
+                                        <input type="Submit" name="Submit" className="btn btn-md" value="submit" style={{backgroundColor: 'antiquewhite',color:'black'}} />
                                        
-                                        <input onClick={threatrule_detailurl} type="Submit" name="Screen" className="btn btn-md ml-2" value="Screen" style={{backgroundColor: 'antiquewhite'}} />
+                                        <input onClick={threatrule_detailurl} type="Submit" name="Screen" className="btn btn-md ml-2" value="Screen" style={{backgroundColor: 'antiquewhite', color:'black'}} />
                                     </div>
                                     <div id="register-link" className="text-right">
                                         <a  className="text" style={{color: 'antiquewhite'}}>Register here</a>

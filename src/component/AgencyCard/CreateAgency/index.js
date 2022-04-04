@@ -10,18 +10,33 @@ const AgencyCreate = () =>{
                             <h1>Create Agency Reference Table  </h1>
                             <div>
                                 <form className="ml-auto" method="post">
-                                    <label>AGENCY CODE </label>
-                                    <input className="ml-2" type="text" placeholder="Agency Code" style={{width: '150px'}} />
-
-                                    <label className="ml-3">UN/CEFACT </label>
-                                    <input className="ml-2" type="text" style={{width: '50px'}} />
-
-                                    <label className="ml-3">AGENCY NAME </label>
-                                    <input className="ml-2" type="text" style={{width: '240px'}} />
+                                    <div style={{display: 'flex'}}>
+                                        <div>
+                                            <label>AGENCY CODE </label>
+                                            <br/>
+                                            <input  type="text" placeholder="Agency Code" style={{width: '28rem'}} />
+                                        </div>
+                                    
+                                        <div style={{marginLeft:'4rem'}}>
+                                            <label>UN/CEFACT </label>
+                                            <br/>
+                                            <input type="text" style={{width: '28rem'}} />
+                                        </div>
+                                    </div>
+                                    
+                                    <br/>
+                                    <label>AGENCY NAME </label>
+                                    <br/>
+                                    <input type="text" style={{width: '60rem'}} />
                                 </form>
                             </div>
+                            <div className="button">
+                                <button type="button" className="btn  btn-md btn-save">Save</button>
+                                <button type="button" className="btn btn-md  btn-back">Back</button>
+
+                            </div>
                         </div>
-                        <input type="Submit" name="Submit" className="btn btn-md" value="Submit" style={{backgroundColor:'#2d3f61', color: '#fff', float: 'right'}}/>
+                        
                     </section>
                 </div>
             </div>

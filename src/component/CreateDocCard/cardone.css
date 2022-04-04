@@ -18,11 +18,11 @@
 } */
 #card{
   padding: 0;
-  margin: 2rem 0rem 0rem 4rem;  
+  margin: 2rem 0rem 0rem 3rem;  
 }
 #card .well{
     min-height: 20px;
-    width: 67rem;
+    width: 64rem;
     padding: 19px;
     margin-bottom: 20px;
     background-color: #ffffff;
@@ -61,12 +61,32 @@ td {
  color: #779696;
  font-size: large;
 }
+#card p{
+ color: #5A5E8B;
+ font-size: large;
+ margin-left: 1rem;
+ font-weight: 500;
+}
 #card input{
   border-color: #D5D7E7;
   border-radius: 5px;
   background-color: #F3F3F6;
   width: 60rem;
   height: 2rem;
+}
+#card .dropdown_value{
+  border-color: #D5D7E7;
+  border-radius: 5px;
+  background-color: #F3F3F6;
+  width: 7rem;
+  height: 31px;
+}
+#card .dropdown_value_larg{
+  border-color: #D5D7E7;
+  border-radius: 5px;
+  background-color: #F3F3F6;
+  width: 60rem;
+  height: 31px;
 }
 #card textarea{
   border-color: #D5D7E7;

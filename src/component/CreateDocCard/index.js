@@ -7,33 +7,70 @@ const CreatDoc = () =>{
             <div className="row" >
                 <div className="col-md-10 col-lg-10">
                     <section id="card">
-                        <div className="well">
-                            <h1>CREATE DOCUMENT TYPE </h1>
-                            <div>
+                        <div className="well" >
+                            <h1 style={{marginTop:'0rem'}}>Create Document Type</h1>
+                            <div className="inner-card">
                                 <form className="ml-auto" method="post">
-                                    <label >Document Type</label>
-                                    <input className="ml-2"type="text" style={{width: '150px'}} />
-                                    
-                                    <label className="ml-4">Process Type</label>
-                                    <input className="ml-2" type="text" style={{width: '70px'}} />
-
+                                    <div>
+                                        <label>Document Type </label>
+                                        <br />
+                                        <input type="text" placeholder="Document Type" />
+                                    </div>
                                     <br />
-                                    <label style={{marginTop: '30px'}}>Agency Code</label>
-                                    <input className="ml-2" type="text" style={{width: '50px'}}/>
+                                    <div style={{ display: 'flex' }}>
+                                        <div >
+                                            <label>Process Type </label>
+                                            <br />
+                                            <input type="text" placeholder="Process Type" style={{ width: '28rem' }} />
 
-                                    <label className="ml-2">Transport Mode</label>
-                                    <input className="ml-2" type="text" style={{width: '50px'}}/>
+                                        </div>
+                                        <div style={{ marginLeft: '4rem' }} >
+                                            <label>Agency code </label>
+                                            <br />
 
-                                    <label className="ml-2" >Movement Type</label>
-                                    <input className="ml-2"type="text" style={{width: '50px'}}/>
-                                    <br/>
-                                    <label className="ml-2"style={{marginTop: '30px'}}>Description</label>
-                                    <input className="ml-2" type="text" style={{width: '390px'}}/>
+                                            <select className="dropdown_value" style={{ width: '100px', height: '31px', }}>
+                                                <option value="">code  </option>
+                                                <option value=""> 2</option>
+                                                <option value=""> 3</option>
+                                            </select>
+                                        {/* <input type="text" placeholder="Agency Name" style={{width: '19.5rem'}} /> */}
+                                        </div>
+                                        <div style={{ marginLeft: '2rem' }} >
+                                            <label>Agency Name </label>
+                                            <br />
+                                            <input type="text" placeholder="Agency Name" style={{ width: '19.5rem' }} />
+                                        </div>
+                                    </div>
+                                    <br />
+                                    <div style={{ display: 'flex' }}>
+                                        <div >
+                                            <label>Transport mode </label>
+                                            <br />
+                                            <input type="text" placeholder="Transport mode" style={{ width: '28rem' }} />
+
+                                        </div>
+                                        <div style={{ marginLeft: '4rem' }} >
+                                            <label>Movement Type </label>
+                                            <br />
+                                            <input type="text" placeholder="Movement Type" style={{ width: '28rem' }} />
+                                        </div>
+                                    </div>
+
+
+                                    <label className="discription" style={{ marginTop: '2rem' }}>Description </label>
+                                    <br />
+                                    <textarea id="w3review" name="w3review" rows="4" type="text" placeholder=" Description here.." style={{ height: '5rem' }}></textarea>
+
                                 </form>
+
                             </div>
+                            <div className="button">
+                                <button type="button" className="btn  btn-md btn-save">Save</button>
+                                <button type="button" className="btn btn-md  btn-back">Back</button>
+
+                            </div>
+
                         </div>
-                        <input type="Submit" name="Submit" className="btn btn-md" value="Cancel" style={{ backgroundColor: '#d90f23', color: '#fff', float: 'left' }} />
-                        <input type="Submit" name="Submit" className="btn btn-md" value="Save" style={{ backgroundColor: '#2d3f61', color: '#fff', float: 'right' }} />
                     </section>
                 </div>
             </div >

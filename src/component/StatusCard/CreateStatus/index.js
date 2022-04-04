@@ -20,7 +20,7 @@ const CreateStatus = () => {
                                         <div style={{marginLeft:'4rem'}} >
                                             <label>Seq.No </label>
                                             <br />
-                                            <input type="text" placeholder="Action" style={{width: '28rem'}} />
+                                            <input type="text" placeholder="Seq.No" style={{width: '28rem'}} />
                                         </div>
                                     </div>
                                         <label>Process </label>

@@ -6,76 +6,96 @@ const CreatDocField = () =>{
         <div>
             <div className="row" >
                 <div className="col-md-10 col-lg-10">
-                    <section id="card">
-                        <div className="well">
+                <section id="card">
+                    
 
-                            <h1>CREATE DOCUMENT FIELDS </h1>
-                            <div>
-                                <form className="ml-auto" method="post">
+                        <div className="well" >
+                            <h1 > Create Document Details </h1>
+                            <form className="ml-auto" >
+                                <div style={{ display: 'flex' }}>
                                     <label>Document Type</label>
-                                    <input className="ml-2" type="text" style={{ width: '150px' }} />
-                                    <label className="ml-5">Process Type</label>
-                                    <input className="ml-2" type="text" style={{ width: '60px' }} />
+                                    <p>Document Type</p>
                                     <br />
-                                    <label style={{ marginTop: '30px' }}>Agency Code</label>
-                                    <input className="ml-2" type="text" style={{ width: '60px' }} />
-
-                                    <label className="ml-3">Transport Mode</label>
-                                    <input className="ml-2" type="text" style={{ width: '60px' }} />
-
-                                    <label className="ml-3">Movement Type</label>
-                                    <input className="ml-2" type="text" style={{ width: '60px' }} />
+                                    <label className="ml-5">Agency Name</label>
+                                    <p>Agency Name</p>
                                     <br />
-                                    <label className="ml-3" style={{ marginTop: '35px' }}>Description</label>
-                                    <input className="ml-2" type="text" style={{ width: '408px' }} />
-                                </form>
-                            </div>
+                                    <label className="ml-5">Agency Code</label>
+                                    <p>Agency Code</p>
 
-                            <table className="table" style={{marginTop: '20px'}}>
-
+                                </div>
+                                <div style={{ display: 'flex' }}>
+                                    <label>Process Type</label>
+                                    <p>Process Type</p>
+                                    <br />
+                                    <label className="ml-5">Transport Mode</label>
+                                    <p>Transport Mode</p>
+                                    <br />
+                                    <label className="ml-5">Movement Type</label>
+                                    <p>Movement Type</p>
+                                </div>
+                                <div style={{ display: 'flex' }}>
+                                    <label>Description</label>
+                                    <p>Description here..</p>
+                                </div>
+                            </form>
+                        </div>
+    
+                    <div className="well">
+                            <h1 > Create Document Fields Table </h1>
+                            <table className="table table-striped" style={{ marginTop: "1rem" }}>
                                 <thead className="thead-dark">
                                     <tr>
                                         <th scope="col">Field Name</th>
-                                        <th scope="col">Field Type </th>
+                                        <th scope="col">Field Type</th>
                                         <th scope="col">Field Size</th>
-                                        <th scope="col">System Ref </th>
-
+                                        <th scope="col">System Reference</th>
+                                        
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
+                                        <td scope="row">Field Name</td>
                                         <td>xxxx</td>
-                                        <td>xxx</td>
                                         <td>xx</td>
-                                        <td>xxxx</td>
-
-
+                                        <td>Status Reference  </td>
                                     </tr>
                                     <tr>
+                                        <td scope="row">Field Name</td>
                                         <td>xxxx</td>
-                                        <td>xxx</td>
                                         <td>xx</td>
-                                        <td>xxxx</td>
+                                        <td>Status Reference </td>
+    
+                                        
                                     </tr>
-
+                                    <tr>
+                                        <td scope="row">Field Name</td>
+                                        <td>xxxx</td>
+                                        <td>xx</td>
+                                        <td>Status Reference </td>
+    
+                                    </tr>
+    
                                 </tbody>
                             </table>
                             <hr style={{ border: '1px solid #2d3f61' }} />
-                            <form method="post">
-                                <table className="table">
-                                    <thead className="thead-dark">
-                                        <tr>
-                                            <td><input type="text" style={{ width: '90px', float: 'left' }} /></td>
-                                            <td><input type="text" style={{ width: '50px', float: 'left' }} /></td>
-                                            <td><input type="text" style={{ width: '50px' }} /></td>
-                                            <td><input type="text" style={{ width: '60px' }} /></td>
-                                        </tr>
-                                    </thead>
-                                </table>
-                            </form>
+                            <div className="inner-card">
+                                <form className="ml-auto" method="post">
+                                    <div style={{ display: 'flex', flexWrap: 'wrap' }}>
+
+                                        <input type="text" placeholder="Field Name" style={{ width: '12rem'}} />
+                                        <input type="text" placeholder="Field Type" style={{ width: '12rem', marginLeft: '3rem' }} />
+                                        <input type="text" placeholder="Field Size" style={{ width: '12rem', marginLeft: '3rem' }} />
+                                        <input type="text" placeholder="System Ref" style={{ width: '12rem', marginLeft: '3rem' }} />
+                                    </div>
+                                </form>
+
+                            </div>
+                            <div className="button">
+                                <button type="button" className="btn  btn-md btn-save" style={{width:'8rem'}}>Confrim Entry</button>
+                                <button type="button" className="btn btn-md  btn-back">Back</button>
+    
+                            </div>
                         </div>
-                        <input type="Submit" name="Submit" className="btn btn-md" value="Cancel" style={{ backgroundColor: '#d90f23', color: '#fff', float: 'left' }} />
-                        <input type="Submit" name="Submit" className="btn btn-md" value="Submit" style={{ backgroundColor: '#2d3f61', color: '#fff', float: 'right' }} />
                     </section>
                 </div>
             </div>
