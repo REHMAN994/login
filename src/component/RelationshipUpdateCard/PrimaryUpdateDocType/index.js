@@ -5,33 +5,57 @@ const PrimaryUpdateDocType = () => {
         <div>
             <div className="row" >
                 <div className="col-md-10 col-lg-10">
-                    <section id="card">
-                        <div className="well">
-                            <h1>SELECT PRIMARY DOCUMENT TYPE </h1>
-                            <div>
-                                <form className="ml-auto" method="post">
-                                    <label> PRIMARY Document Type</label>
+                <section id="card">
+                    <div className="well">
+                        <h1 style={{marginLeft:'1rem'}}>Select Primary Document Type</h1>
 
-                                    <select className="ml-2" style={{width: '150px', height:'31px'}}>
-                                        <option value="">Type 1 </option>
+                        <div className="inner-card">
+                            <form className="ml-auto" method="post">
+                           
+                                    <br />
+                                    <div style={{display:'flex'}}>
+                                    
+                                    <div style={{marginLeft:'1rem'}} >
+                                        <label>Primary Document Type </label>
+                                        <br />
+                                     
+                                    <select className="dropdown_value"  style={{ width: '28rem', height: '31px', }}>
+                                        <option value="">Select Document Type </option>
                                         <option value=""> 2</option>
                                         <option value=""> 3</option>
                                     </select>
-
-                                    <label className="ml-5">Process Type</label>
-                                    <input class="ml-2" type="text" placeholder="2" style={{width: '50px'}} />
-
-                                    <br />
-
-                                    <label className="ml-4" style={{marginTop: '35px'}}>Description</label>
-                                    <input class="ml-2" type="text" style={{width: '390px'}} />
-
-                                </form>
+                                        
+                                 
+                                      
+                                    {/* <input type="text" placeholder="Agency Name" style={{width: '19.5rem'}} /> */}
+                                    </div>
+                                    <div style={{marginLeft:'4rem'}} >
+                                        <label>Field Name </label>
+                                        <br />
+                                        <input type="text" placeholder="Field Name" style={{width: '28rem'}} />
+                                    </div>
+                                </div>
+                              
+                                <div style={{display:'flex'}}>
+                                  
+                                </div>
+                                   
+                            <div style={{marginLeft:'1rem'}} >
+                                <label className="discription" style={{marginTop: '2rem',}}>Description </label>
+                                <br />
+                                <textarea id="w3review" name="w3review" rows="4" type="text" placeholder=" Description here.." style={{height: '5rem'}}></textarea>
                             </div>
+                            </form>
+
                         </div>
-                        <input type="Submit" name="Submit" className="btn btn-md" value="Cancel" style={{backgroundColor: '#d90f23', color: '#fff', float: 'left'}} />
-                        <input type="Submit" name="Submit" className="btn btn-md" value="Save" style={{backgroundColor: '#2d3f61', color: '#fff', float: 'right'}} />
-                    </section>
+                        <div className="button">
+                            <button type="button" className="btn  btn-md btn-save" >Save</button>
+                            <button type="button" className="btn btn-md  btn-back" >Cancle</button>
+
+                        </div>
+
+                    </div>
+                </section>
                 </div>
             </div>
         </div>            

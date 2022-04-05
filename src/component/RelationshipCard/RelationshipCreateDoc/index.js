@@ -3,76 +3,165 @@ import React from "react";
 const RelationshipCreateDoc = () => {
     return(
         <div>
-            <div className="row" >
+            <div className="row">
                 <div className="col-md-10 col-lg-10">
                     <section id="card">
-                        <div className="well">
-
-                            <h1>CREATE DOCUMENT RELATUIONSHIPS </h1>
+                        <div className="well" style={{ width: '64rem' }}>
+                            <h1 > Create Document Relationships </h1>
                             <div>
-                                <form className="ml-auto" method="post">
-                                    <label> PRIMARY Document Type</label>
-                                    <input className="ml-2" type="text" style={{width: '150px'}} />
-                                    <label className="ml-5">Process Type</label>
-                                    <input className="ml-2" type="text" style={{width: '60px'}} />
-                                    <br />
-                                    <label className="ml-3" style={{marginTop: '35px'}}>Description</label>
-                                    <input type="text" style={{width: '408px'}} />
+                                <form className="ml-auto" >
+                                    <div style={{ display: 'flex' }}>
+                                        <label>Primary Document Type:</label>
+                                        <p >Document Type</p>
+                                        <br />
+                                        <label className="ml-5">Process Type:</label>
+                                        <p>Process Type</p>
+                                        <br />
+
+
+                                    </div>
+
+                                    <div style={{ display: 'flex' }}>
+                                        <label>Description:</label>
+                                        <p>Description here..</p>
+                                    </div>
+
+
                                 </form>
                             </div>
+                        </div>
 
-                            <table className="table" style={{marginTop: '20px'}}>
-
+                        <div className="well" style={{ width: '64rem' }}>
+                            <h1 > Create Document Relationships Table </h1>
+                            <table className="table table-striped" style={{ marginTop: "1rem" }}>
                                 <thead className="thead-dark">
                                     <tr>
-                                        <th scope="col">Seq</th>
-                                        <th scope="col">DETAIL Doc Type</th>
-                                        <th scope="col">Rel Type </th>
-                                        <th scope="col">Seq No</th>
+                                        <th scope="col">Seq No.</th>
+                                        <th scope="col">Relation Type</th>
+                                        <th scope="col">Detail Document Type</th>
+                                        <th scope="col">Action</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <th scope="row">1</th>
-                                        <td>xxxx</td>
-                                        <td>xxx</td>
-                                        <td>xx</td>
+                                        <td>Seq No.  </td>
+                                        <td>Relation Type</td>
+                                        <td>Detail Document Type</td>
+                                        <td><button data-toggle="modal" data-target="#myModal" style={{ border: 'none' }}><i className="fas fa-edit"></i></button> <i class="fa fa-trash ml-2" aria-hidden="true"></i></td>
                                     </tr>
                                     <tr>
-                                        <th scope="row">2</th>
-                                        <td>xxxx</td>
-                                        <td>xxx</td>
-                                        <td>xx</td>
+                                        <td>Seq No.  </td>
+                                        <td>Relation Type</td>
+                                        <td>Detail Document Type</td>
+
+                                        <td><button data-toggle="modal" data-target="#myModal" style={{ border: 'none' }}><i className="fas fa-edit"></i></button> <i class="fa fa-trash ml-2" aria-hidden="true"></i></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Seq No.  </td>
+                                        <td>Relation Type</td>
+                                        <td>Detail Document Type</td>
+                                    <td><button data-toggle="modal" data-target="#myModal" style={{ border: 'none' }}><i className="fas fa-edit"></i></button> <i class="fa fa-trash ml-2" aria-hidden="true"></i></td>
+
                                     </tr>
 
                                 </tbody>
                             </table>
-                            <hr style={{ border: '1px solid #2d3f61'}} />
-                            <form method="post">
-                                <table className="table">
-                                    <thead className="thead-dark">
-                                        <tr>
-                                            <td></td>
-                                            <td >
-                                                <select style={{width: '90px', height: '31px', marginLeft: '3rem'}}>
-                                                    <option value=""> 1 </option>
-                                                    <option value=""> 2</option>
-                                                    <option value=""> 3</option>
-                                                </select>
-                                            </td>
+                            <hr style={{ border: '1px solid #2d3f61' }} />
+                            <div className="inner-card">
+                                <form className="ml-auto" method="post">
+                                    <h1 >Add Detail Document Type </h1>
+                                    <div style={{ display: 'flex' }}>
 
-                                            <td><input type="text" style={{width :'50px'}} /></td>
-                                            <td><input type="text" style={{width :'50px'}} /></td>
+                                        <div>
+                                            <label className="">Seq.No</label>
+                                            <br />
+                                            <input type="text"  style={{ width: '14rem', height: '40px' }} />
+                                        </div>
 
-                                        </tr>
-                                    </thead>
-                                </table>
-                            </form>
-                            <input type="Submit" name="Submit" className="btn btn-md center" value=" ADD DETAIL DOC TYPE" style={{ backgroundColor:  '#2d3f61', color: '#fff',  width: '193px', marginLeft: '32rem'}} />
+                                        <div style={{ marginLeft: '4rem' }}>
+                                            <label className="">Relation Type </label>
+                                            <br />
+                                            <input type="text" style={{ width: '14rem', height: '40px' }} />
+                                        </div>
+
+                                        <div style={{ marginLeft: '4rem' }}>
+                                            <label className="">Detail Document Type</label>
+                                            <br />
+                                            <input type="text"  style={{ width: '14rem', height: '40px' }} />
+                                        </div>
+
+                                        <div style={{ marginLeft: '4rem', marginTop: '0.9rem' }}>
+                                            <label className=""></label>
+                                            <br />
+
+                                            <button type="button" className="btn  btn-md btn-save">+ Add</button>
+
+                                        </div>
+                                    </div>
+
+                                    <br />
+
+                                </form>
+
+                            </div>
+                            <div className="button">
+                                <button type="button" className="btn  btn-md btn-save">Submit</button>
+                                <button type="button" className="btn btn-md  btn-back">Cancel</button>
+
+                            </div>
                         </div>
-                        <input type="Submit" name="Submit" className="btn btn-md" value="Cancel" style={{backgroundColor: '#d90f23', color: '#fff', float: 'left'}} />
-                        <input type="Submit" name="Submit" className="btn btn-md" value="Submit" style={{backgroundColor: '#2d3f61', color: '#fff', float: 'right'}} />
                     </section>
+                </div>
+            </div>
+            <div className="modal fade" id="myModal">
+                <div className="modal-dialog modal-lg">
+                    <div className="modal-content">
+                        <div className="row" >
+                            <div className="col-md-10 col-lg-10">
+                            <section id="card" >
+                                    <div className="well" style={{ width: '43rem' }}>
+                                        <h1>  Document Relationships Edit </h1>
+                                        <div className="inner-card">
+                                            <form className="ml-auto" method="post">
+                                            <div style={{display:'flex'}}>
+                                                <div >
+                                                    <label>Seq No. </label>
+                                                    <br />
+                                                    <input type="text"  style={{width: '15rem'}} />
+                                     
+                                                </div>
+                                                <div style={{marginLeft:'4rem'}} >
+                                                    <label>Relation Type </label>
+                                                    <br />
+                                                    <input type="text" style={{width: '15rem'}} />
+                                                </div>
+                                            </div>
+                                            <div style={{display:'flex', marginTop:'1rem'}}>
+                                                
+                                                <div >
+                                                    <label>Detail Document Type</label>
+                                                    <br/>
+                                                    <input type="text" placeholder="Action Details" style={{ width: '34rem' }} />
+                                                </div>
+                                                
+                                            </div>
+                                                
+                                            </form>
+
+                                        </div>
+                                        <div className="button">
+                                            <button type="button" className="btn  btn-md btn-save">Save</button>
+                                            <button type="button" className="btn btn-md  btn-back">Back</button>
+
+                                        </div>
+                                    </div>
+                                </section>
+
+                            </div>
+                        </div>
+
+
+                    </div>
                 </div>
             </div>
 

@@ -96,13 +96,13 @@ td {
   height: 2rem;
 }
 #card .button{
-  margin-top: 2rem;
+  margin-top: 1rem;
   margin-bottom: 4rem;
 
 }
 #card .btn-back{
   color: #03995D;
-  border-color: #03995D;
+  background-color: #ffffff;
   border-radius: 4px;
   float: right;
   width: 7rem;

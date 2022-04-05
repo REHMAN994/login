@@ -1,22 +1,94 @@
-.login{
-    background-color: #2d3f61;
-    height: 100vh;
-}
-#login img{
-    width: 165px;
-}
-#login .text{
-    color: antiquewhite;
-}
-#login .form-group{
-    color: antiquewhite;
-}
-#login .container #login-row #login-column #login-box #login-form {
-    padding: 20px;
-}
+
+.left-side{
+
+    height: 99.9vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 0;
+    position: relative;
   
-#login .btn-infoo{
-    background-color: #fff;
-    color: #2d3f61;
-    border-color: none;
+
+}
+input{
+    border-color: #D5D7E7;
+    border-radius: 5px;
+    background-color: #F3F3F6;
+    
+    
+}
+label{
+    color: #779696;
+    font-size: large;
+}
+
+.main{
+    text-align: center;
+}
+
+.content {
+    position: relative;
+    text-align: center;
+}
+.content img{
+    width: 60%;
+    margin-top:14rem ;
+    position: absolute;
+}
+
+.content h5{
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    position: absolute;
+}
+
+.content p{
+    color: white;
+    font-weight: 700;
+    font-size: 17px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-left: 8rem;
+    letter-spacing: 2px;
+    position: absolute;
+}
+.right_side{
+    background-color:'#f2f3f7';
+}
+
+.form_logon{
+    border-radius: 8px;
+    padding: 20px;
+    width: 21rem;
+    background-color: white;
+    height: 64vh;
+    margin-top: 9rem;
+    
+}
+.panel-title {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+.btn_login{
+    color: white;
+    border-radius: 6px;
+    background-color: #03995D;
+    width: 16rem;
+    border-color: #03995D;
+    margin-top: 1rem;
+}
+.btn:hover {
+    color: white;
+    background-color:  #03995D;
+}
+.btn-screen{
+    color: #03995D;
+    border-radius: 6px;
+    background-color: white;
+    width: 16rem;
+    border-color: #03995D;
+    margin-top: 1rem;
 }
