@@ -103,6 +103,7 @@ td {
 #card .btn-back{
   color: #03995D;
   background-color: #ffffff;
+  border-color: #03995D;
   border-radius: 4px;
   float: right;
   width: 7rem;
