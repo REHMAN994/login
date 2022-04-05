@@ -1,6 +1,6 @@
 import React from "react";
 import '../Login/login.css';
-import Background from "../../Images/background.png";
+
 import Logo from "../../Images/login@logo.png";
 const Login = () => {
 
@@ -43,59 +43,62 @@ const Login = () => {
                 </div>
 
             </div> */}
-            <div className="login">
-            <div className="container-fluid pl-0 pr-0" style={{ display: 'flex' , backgroundColor:'#f2f3f7'}}>
-                <div className="row">
-                    <div className="col-md-11 col-lg-11 pl-0 pr-0">
-                        <section className="left-side"> 
-                            <img src={Background}  alt=""/>
-                            {/* <div className="content">
-                                <div className="">
-                                    <img src={Logo} alt />
-                                    <h1>hellew</h1>
+            <div className="login" style={{ display: 'flex', backgroundColor: '#f2f3f7' }}>
+                <div className="container-fluid pl-0 pr-0" >
+                    <div className="">
+                        <div className="col-md-1 col-lg-11 pl-0 pr-0">
+                            {/* <img src={Background} alt="" style={{ height: '99vh', width: '100%' }} /> */}
+                            <section className="left_side">
+
+                                <div className="content">
+                                   <img src={Logo} alt="" />
+                                   <h5 >INTEGRATED RISK MANGEMENT SYSTEM</h5>
+                                   
+                                    <p>(IRMS)</p> 
+                                     
                                 </div>
-                            </div> */}
-                        </section>
+                            </section>
+                        </div>
                     </div>
                 </div>
-                <div className="row">
+                
+                <div style={{paddingRight: '5rem'}}>
                     <div className="col-md-1 col-lg-1 pl-0 pr-0 ">
                         <section className="right_side">
-                             <div className="hellow">
-                                <form className="form_logon">
-                                    <div className="panel panel-white">
-                                        <div className="panel-heading">
-                                            <div className="panel-title">Login</div>
-                                        </div>
-                                        <div className="form-group ">
-                                            <label>Email address</label>
-                                            <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                                                placeholder="Enter email"/>
-                                        </div>
-                                        <div className="form-group ">
-                                            <label>Password</label>
-                                            <input type="password" className="form-control" id="exampleInputPassword1" placeholder="Password"/>
-                                        </div>
-                                        <div className="form-check">
-                                            <input type="checkbox" className="form-check-input" id="exampleCheck1"/>
-                                            <label className="form-check-label" for="exampleCheck1">Remember</label>
-                                            <br/>
-                                            <button type="submit" className="btn_login">Login</button>
-                                            <br/>
-                                            <button onClick={threatrule_detailurl} type="submit" className="btn_login">Screen</button>
-                                        </div>
-                                        {/* <!-- <div class="d-flex justify-content-center links" style="color: #000; text-align: center;">
+                            <form className="form_logon">
+                                <div className="panel panel-white">
+                                    <div className="panel-heading">
+                                        <div className="panel-title">LOGIN</div>
+                                    </div>
+                                    <div className="form-group ">
+                                        <label>Email</label>
+                                        <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                                            placeholder="Enter email" />
+                                    </div>
+                                    <div className="form-group ">
+                                        <label>Password</label>
+                                        <input type="password" className="form-control" id="exampleInputPassword1" placeholder="Password" />
+                                    </div>
+                                    <div className="form-check">
+                                        <input type="checkbox" className="form-check-input" id="exampleCheck1" />
+                                        <label className="form-check-label" for="exampleCheck1">Remember</label>
+                                        <br />
+                                        <button type="submit" className="btn_login">Login</button>
+                                        <br />
+                                        <button onClick={threatrule_detailurl} type="submit" className="btn_login">Screen</button>
+                                    </div>
+                                    {/* <!-- <div class="d-flex justify-content-center links" style="color: #000; text-align: center;">
                                             Don't Have An Account?<a href="SignUp.html" style="color: blue;">Register Now</a>
                                         </div> --> */}
-                                    </div>    
-                                </form>
-                            </div>
+                                </div>
+                            </form>
+
                         </section>
                     </div>
                 </div>
-            
+
+                
             </div>
-        </div>    
 
         </div>
     )

@@ -39,6 +39,7 @@ th,
 td {
   text-align: center;
   color: #5A5E7C;
+  font-family: 'Poppins', sans-serif;
 
 }
 .table td, .table th {
@@ -60,12 +61,14 @@ td {
 #card label{
  color: #779696;
  font-size: large;
+ font-family: 'Poppins', sans-serif;
 }
 #card p{
  color: #5A5E8B;
  font-size: large;
  margin-left: 1rem;
  font-weight: 500;
+ font-family: 'Poppins', sans-serif;
 }
 #card input{
   border-color: #D5D7E7;
@@ -73,6 +76,7 @@ td {
   background-color: #F3F3F6;
   width: 60rem;
   height: 2rem;
+
 }
 #card .dropdown_value{
   border-color: #D5D7E7;
@@ -80,6 +84,7 @@ td {
   background-color: #F3F3F6;
   width: 7rem;
   height: 31px;
+  font-family: 'Poppins', sans-serif;
 }
 #card .dropdown_value_larg{
   border-color: #D5D7E7;
@@ -87,6 +92,7 @@ td {
   background-color: #F3F3F6;
   width: 60rem;
   height: 31px;
+  font-family: 'Poppins', sans-serif;
 }
 #card textarea{
   border-color: #D5D7E7;
@@ -94,6 +100,7 @@ td {
   background-color: #F3F3F6;
   width: 60rem;
   height: 2rem;
+  font-family: 'Poppins', sans-serif;
 }
 #card .button{
   margin-top: 1rem;
@@ -108,6 +115,7 @@ td {
   float: right;
   width: 7rem;
   margin-right: 14px;
+  font-family: 'Poppins', sans-serif;
 }
 #card .btn-save{
   background-color: #03995D;
@@ -115,6 +123,7 @@ td {
   border-radius: 4px;
   float: right;
   width: 7rem;
+  font-family: 'Poppins', sans-serif;
 }
 
 ::-webkit-input-placeholder { /* Edge */
@@ -134,4 +143,5 @@ td {
   background-color: #5a5e8b;
   border-color:none;
   font-weight: 400;
+  font-family: 'Poppins', sans-serif;
 } 

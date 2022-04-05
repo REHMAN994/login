@@ -67,7 +67,7 @@ const RuleTypeDetails = () => {
                         <div className="row" >
                             <div className="col-md-10 col-lg-10">
                             <section id="card" >
-                                    <div className="well" style={{ width: '43rem' }}>
+                                    <div className="" style={{ width: '43rem' }}>
                                         <h1> Rule Type Edit </h1>
                                         <div className="inner-card">
                                             <form className="ml-auto" method="post">
