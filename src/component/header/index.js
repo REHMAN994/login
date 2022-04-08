@@ -5,7 +5,7 @@ import Logo  from "../../Images/psw_logo.png";
 const Header = () =>{
     return(
         <div id="main">
-            <nav className="navbar navbar-expand-lg navbar-dark scrolling-navbar navbar-fixed">
+            <nav className="navbar navbar-expand-lg navbar-dark scrolling-navbar navbar-fixed  " >
                 <div className="container-fluid">
 
                     <div className="logo">

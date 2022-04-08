@@ -5,56 +5,78 @@ const RiskRuleCreateCount = () => {
         <div>
             <div className="row">
                 <div className="col-md-10 col-lg-10">
+                <section id="card">
+                            <div className="well">
+                                <h1 style={{marginTop: '0rem'}}>Create Risk Rule</h1>
+                                <form className="ml-auto" >
+                                    <div style={{display:'flex'}}>
+                                        <label>Document Type</label>
+                                        <p>Document Type</p>
+                                        <br/>
+                                        <label className="ml-5">Threat Rule set</label>
+                                        <p>Threat Rule set</p>
+                                        <br/>
+                                        <label className="ml-5">Rule Type</label>
+                                        <p>Rule Type</p>
+                                        
+                                    </div>
+                                    <div style={{display:'flex'}}>
+                                        <label>Rule Method</label>
+                                        <p>Rule Method</p>
+                                        <br/>
+                                        <label className="ml-5">Case Type</label>
+                                        <p>Case Type</p>
+                                        
+                                    </div>
+                                
+                                </form>
+                                
+                            </div>
+                    </section>
                     <section id="card">
                         <div className="well">
-                            <h1> CREATE RISK RULE -COUNT CONDITION </h1>
+                            <h1>Create Risk Rule Count </h1>
                             <div>
                                 <form className="ml-auto" method="post">
-
-                                    <label>Rule ID</label>
-                                    <input className="ml-2" type="text" style={{ width: '50px' }} />
-                                    <label className="ml-3">Document Type</label>
-                                    <input className="ml-2" type="text" style={{ width: '100px' }} />
-                                    <label className="ml-3">Threat Rule Set</label>
-                                    <input className="ml-2" type="text" style={{ width: '100px' }} />
-                                    <br />
-                                    <label className="ml-5" style={{ marginTop: '10px' }}>Run Type</label>
-                                    <input className="ml-2" type="text" style={{ width: '100px' }} />
-                                    <label className="ml-5">Rule Method</label>
-                                    <input className="ml-2" type="text" style={{ width: '100px' }} />
-                                    <label className="ml-5">Case Type</label>
-                                    <input className="ml-2" type="text" style={{ width: '100px' }} />
-                                    <br />
-                                    <hr style={{ border: '1px solid #2d3f61' }} />
-                                    <div style={{ display: 'flex', flexWrap: 'wrap' }}>
+                                    <div style={{display:'flex'}}>
                                         <label>Document Seq</label>
-                                        <input className="ml-2" type="text" style={{ width: '100px', height: '30px' }} />
-                                        <div className="ml-5">
-                                            <label > Field Name </label>
-                                            <select style={{ width: '70px' }}>
-                                                <option value="">Field </option>
+                                        <p>350</p>
+                                       
+                                    </div>
+                                   
+                                    <div style={{ display: 'flex',marginTop: '1rem' }}>    
+                                        <div>
+                                            <label>Field Name </label>
+                                            <br/>
+                                            <select className="dropdown_value" style={{width: '28rem'}}>
+                                                <option value="">Field Name </option>
                                                 <option value=""> 1</option>
                                                 <option value=""> 2</option>
                                             </select>
-                                            <br />
-                                            <label > Condition Value </label>
-                                            <select style={{ width: '70px' }}>
-                                                <option value="">Value </option>
+                                        </div>
+                                        <div style={{marginLeft:'4rem'}}>
+                                            <label>Condition value </label>
+                                            <br/>
+                                            <select className="dropdown_value" style={{width: '28rem'}}>
+                                                <option value="">Condition value </option>
                                                 <option value=""> 1</option>
                                                 <option value=""> 2</option>
                                             </select>
-                                            <br />
-                                            <label>Count</label>
-                                            <input className="ml-2" type="text" style={{ width: '60px' }} />
                                         </div>
                                     </div>
+                                    <div style={{marginTop: '1rem' }}>
+                                        <label>Count</label>
+                                            <br />
+                                        <input placeholder="Count" type="text" style={{ width: '28rem' }} />
+                                    </div>
+                                    
                                 </form>
                             </div>
 
-                            <div style={{ display: 'flex', flexWrap: 'wrap' }}>
-                                <input type="Submit" name="Submit" className="btn btn-md center" value="CANCEL" style={{ backgroundColor: '#d90f23', color: '#fff', width: '142px' }} />
-                                <input type="Submit" name="Submit" className="btn btn-md " value="REVIEW RULE" style={{ backgroundColor: '#2d3f61', color: '#fff', float: 'right', width: '150px', marginLeft: '17rem' }} />
-                                <input type="Submit" name="Submit" className="btn btn-md ml-3" value="SAVE" style={{ backgroundColor: '#2d3f61', float: 'right', color: '#fff', width: '150px' }} />
+                            <div className="button" style={{marginTop: '2rem'}}>
+                                <button type="button" className="btn  btn-md btn-save" style={{float:'left', width:'10rem'}}>Review Rules</button>
+                                <button type="button" className="btn  btn-md btn-save"style={{ width:'7rem'}}>Save</button>
+                                <button type="button" className="btn btn-md  btn-back">Back</button>
                             </div>
 
                         </div>

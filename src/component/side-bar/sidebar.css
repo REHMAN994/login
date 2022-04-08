@@ -1,10 +1,12 @@
 #side-bar {
   background-color: #5a5e8b;
   min-width: 210px;
-  height: 92vh;
+  height: 160%;
   overflow-y: hidden;
   overflow-x: hidden;
   left: 0;
+ 
+ 
 }
 
 .dropbtn {
@@ -52,6 +54,11 @@
   background-color:#f2f3f7 ;
  
 
+}
+@media (height: 570px) {
+  #side-bar {
+    height: 133vh;
+  }
 }
 
 

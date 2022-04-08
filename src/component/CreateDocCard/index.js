@@ -3,7 +3,7 @@ import "./cardone.css";
 
 const CreatDoc = () =>{
     return (
-        <div>
+        <div className="container">
             <div className="row" >
                 <div className="col-md-10 col-lg-10">
                     <section id="card">

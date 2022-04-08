@@ -2,7 +2,7 @@ import React from "react";
 
 const MaintainDocFiled = () =>{
     return (
-        <div>
+        <div className="">
             <div className="row" >
                 <div className="col-md-10 col-lg-10">
                     <section id="card">

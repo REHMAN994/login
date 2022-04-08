@@ -8,7 +8,7 @@ const AgencyDetails = () =>{
             <div className="row" >
                 <div className="col-md-10 col-lg-10">
                 <section id="card">
-                        <div className="well" style={{ width: '74rem' }}>
+                        <div className="well" >
                             <h1> Agency Details </h1>
                             <table className="table table-striped" style={{ marginTop: "1rem" }}>
                                 <thead className="thead-dark">
