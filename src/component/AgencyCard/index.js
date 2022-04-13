@@ -18,7 +18,7 @@ const AgencyDetails = () =>{
                                         <th scope="col">Un/Cefact</th>
                                         <th scope="col">Agency Name</th>
                                         <th scope="col">Status</th>
-                                        <th scope="col">Edit</th>
+                                        <th scope="col" className="mw-100">Edit</th>
 
                                     </tr>
                                 </thead>

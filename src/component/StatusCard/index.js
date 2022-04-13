@@ -18,7 +18,7 @@ const DetailsStatus = () => {
                                         <th scope="col">Seq.No</th>
                                         <th scope="col">Description</th>
                                         <th scope="col">Status</th>
-                                        <th scope="col">Action</th>
+                                        <th scope="col"className="mw-100">Action</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -52,7 +52,7 @@ const DetailsStatus = () => {
                                 </tbody>
                             </table>
                             <div className="button">
-                                <button type="button" className="btn  btn-md btn-save">Update</button>
+                                <button type="button" className="btn btn-md btn-save">Update</button>
                                 <button type="button" className="btn btn-md  btn-back">Back</button>
 
                             </div>

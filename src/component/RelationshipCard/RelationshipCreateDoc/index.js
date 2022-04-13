@@ -39,7 +39,7 @@ const RelationshipCreateDoc = () => {
                                         <th scope="col">Seq No.</th>
                                         <th scope="col">Relation Type</th>
                                         <th scope="col">Detail Document Type</th>
-                                        <th scope="col">Action</th>
+                                        <th scope="col" className="mw-100">Action</th>
                                     </tr>
                                 </thead>
                                 <tbody>

@@ -19,7 +19,7 @@ const RuleTypeDetails = () => {
                                         <th scope="col">Case Type</th>
                                         <th scope="col">Discription</th>
                                         <th scope="col">Status</th>
-                                        <th scope="col">Action</th>
+                                        <th scope="col" className="mw-100">Action</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -67,7 +67,7 @@ const RuleTypeDetails = () => {
                         <div className="row" >
                             <div className="col-md-10 col-lg-10">
                             <section id="card" >
-                                    <div className="" style={{ width: '43rem' }}>
+                                    <div className="" style={{ width: '45rem' }}>
                                         <h1> Rule Type Edit </h1>
                                         <div className="inner-card">
                                             <form className="ml-auto" method="post">
@@ -100,7 +100,7 @@ const RuleTypeDetails = () => {
                                                 
                                                 <label className="discription" style={{ marginTop: '1rem' }}>Description </label>
                                                 <br />
-                                                <textarea id="w3review" name="w3review" rows="4" type="text" placeholder=" Description here.." style={{height: '5rem', width:'30rem'}}></textarea>
+                                                <textarea id="w3review" name="w3review" rows="4" type="text" placeholder=" Description here.." style={{height: '5rem', width:'34rem'}}></textarea>
 
                                             </form>
 

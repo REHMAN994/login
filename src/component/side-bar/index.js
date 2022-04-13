@@ -207,7 +207,7 @@ const Sidebar = () =>{
                     </div>
                   )}
                 </div>
-                {/*
+                
                <div className="dropdown">
                   <button onClick={(e) => setIsActive11(!isActive11)} className="dropbtn"><i class="fa fa-plus mr-2" aria-hidden="true"></i> Create Risk Rule</button>
                   {isActive11 && (
@@ -218,7 +218,7 @@ const Sidebar = () =>{
                     </div>
                   )}
                 </div>
-                    
+                {/*    
                 <div className="dropdown">
                   <button onClick={(e) => setIsActive12(!isActive12)} className="dropbtn"><i class="fa fa-plus mr-2" aria-hidden="true"></i>Risk Rule Condition</button>
                   {isActive12 && (

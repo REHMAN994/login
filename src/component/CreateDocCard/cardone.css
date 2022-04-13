@@ -130,6 +130,9 @@ td {
   width: 7rem;
   font-family: 'Poppins', sans-serif;
 }
+#card .table .mw-100{
+  width: 100px;
+}
 
 ::-webkit-input-placeholder { /* Edge */
   color: #5A5E8B;

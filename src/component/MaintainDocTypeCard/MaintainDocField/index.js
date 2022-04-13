@@ -53,7 +53,7 @@ const MaintainDocFiled = () =>{
                                         <th scope="col">Field Type </th>
                                         <th scope="col">Field Size</th>
                                         <th scope="col">System Ref </th>
-                                        <th scope="col">Action</th>
+                                        <th scope="col" className="mw-100">Action</th>
                                     </tr>
                                 </thead>
                                 <tbody>

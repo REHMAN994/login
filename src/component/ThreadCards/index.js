@@ -18,7 +18,7 @@ const ThreatRuleDetails = () => {
                                         <th scope="col">Threat Group</th>
                                         <th scope="col">Discription</th>
                                         <th scope="col">Status</th>
-                                        <th scope="col">Action</th>
+                                        <th scope="col" className="mw-100">Action</th>
                                     </tr>
                                 </thead>
                                 <tbody>

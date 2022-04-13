@@ -19,7 +19,7 @@ const CaseTypeDetails = () =>{
                                         <th scope="col">Action Details</th>
                                         <th scope="col">Discription</th>
                                         <th scope="col">Status</th>
-                                        <th scope="col">Edit</th>
+                                        <th scope="col" className="mw-100">Edit</th>
 
                                     </tr>
                                 </thead>
